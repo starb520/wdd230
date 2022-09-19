@@ -53,10 +53,10 @@ footer {
     height: 100px;
     border-radius: 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:aliceblue;
+    color:white;
     line-height: 15px;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #p {
