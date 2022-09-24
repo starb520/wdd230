@@ -1,0 +1,22 @@
+@media only screen and (min-width: 900px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap:10px;
+    }
+
+    #design-element01 {
+        grid-column: 1/2;
+    }
+        
+    
+        #design-element02 {
+            grid-column: 2/3;
+        }
+        
+    
+        #design-element03 {
+            grid-column: 3/4;
+        
+    }
+}

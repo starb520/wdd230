@@ -1,0 +1,98 @@
+/* the fonts I want for this page
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+.content {
+    min-width:375px;
+    max-width: 1200px;
+    /* width: 50%;
+    margin: 0 auto; */
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.dpWebsite, .appleWebsite, .amazonWebsite {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+}
+
+h1, h3 {
+    background-color: rgb(45, 45, 100);
+    color: aliceblue;
+    text-align: center;
+    margin:auto;
+    width: 50%;
+    font-family: 'Open Sans', sans-serif ; 
+    min-width:375px;
+    max-width: 1200px;
+}
+
+h1 {
+    margin-top: 5%;
+    padding-top: 3%;
+}
+h3 {
+    padding-bottom: 3%;
+}
+
+h2 {
+    line-height: 0;
+}
+
+.website-name {
+    margin-bottom: 0;
+}
+
+
+
+#design-element01 {
+    background-color: rgb(251, 250, 250);
+    padding: 5%;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#design-element02 {
+    background-color: rgb(251, 250, 250);
+    padding: 5%;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#design-element03 {
+    background-color: rgb(251, 250, 250);
+    padding: 5%;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5%;
+}
+
+footer {
+    background-color: rgb(45, 45, 100);
+    color: aliceblue;
+    text-align: center;
+    margin:auto;
+    font-family: 'Open Sans', sans-serif ; 
+    width: 50%;
+    min-width:375px;
+    max-width: 1200px;
+}
+
+#p, #p2 {
+    background-color: rgb(45, 45, 100);
+    color: aliceblue;
+    text-align: center;
+    margin:auto;
+    font-family: 'Open Sans', sans-serif ; 
+}
+
+#p {
+    padding-top: 3%;
+}
+
+#p2 {
+    padding-bottom:3%;
+    margin-bottom: 5%;
+}
