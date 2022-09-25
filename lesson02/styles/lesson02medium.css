@@ -1,23 +1,23 @@
-@media only screen and (min-width: 771px) {
+@media only screen and (min-width: 770px) {
     .content {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap:10px;
-        
-        /* width:none; */
+        grid-gap:3px;
     }
 
     #design-element01 {
         grid-column: 1/2;
-
     }
 
     #design-element02 {
         grid-column: 2/3;
+        margin-right: 5%;
     }
 
     #design-element03 {
-        grid-column: 1/2;
+        grid-column: 1/2; 
+        margin-left: 5%; 
+        margin-right: auto; 
     }
 
     #heading {

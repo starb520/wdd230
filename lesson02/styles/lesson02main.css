@@ -3,7 +3,7 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif; */
 
 .content {
-    min-width:375px;
+    min-width:300px;
     max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr;
@@ -22,9 +22,9 @@ font-family: 'Open Sans', sans-serif; */
     background-color: rgb(45, 45, 100);
     color: aliceblue;
     text-align: center;
-    margin:auto;
+    margin: auto;
     font-family: 'Open Sans', sans-serif ; 
-    min-width:375px;
+    min-width:300px;
     max-width: 1150px;
     
 }
@@ -55,7 +55,9 @@ h2 {
     align-content: center;
     margin-bottom: 5%;
     border-radius: 10px;
-    border-style: groove;    
+    border-style: groove; 
+    margin-left: 5%;  
+    margin-right: 5%; 
 }
 
 #design-element02 {
@@ -67,6 +69,8 @@ h2 {
     margin-bottom: 5%;
     border-radius: 10px;
     border-style: groove;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #design-element03 {
@@ -77,11 +81,11 @@ h2 {
     margin-bottom: 5%;
     align-content: center;
     border-radius: 10px;
-    border-style: groove;    
+    border-style: groove;
+    margin-left: 5%;   
 }
 
 #p, #p2 {
-    /* background-color: rgb(45, 45, 100); */
     color: aliceblue;
     text-align: center;
     margin:auto;
@@ -107,4 +111,8 @@ footer {
     min-width:375px;
     max-width: 1200px;
     border-radius: 10px;
+}
+
+a {
+    font-size: 13px;
 }
