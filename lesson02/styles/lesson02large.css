@@ -2,12 +2,12 @@
     .content {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap:1%;
+        /* grid-gap:1%; */
     }
 
     #design-element01 {
         grid-column: 1/2;
-        margin-right: auto;
+        /* margin-right: auto; */
     }
         
     
@@ -19,6 +19,6 @@
         #design-element03 {
             grid-column: 3/4;  
             margin-right: 5%;
-            margin-left: auto;
+            /* margin-left: 5%; */
     }
 }

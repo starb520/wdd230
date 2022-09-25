@@ -2,7 +2,6 @@
     .content {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap:3px;
     }
 
     #design-element01 {
@@ -17,7 +16,7 @@
     #design-element03 {
         grid-column: 1/2; 
         margin-left: 5%; 
-        margin-right: auto; 
+        /* margin-right: auto;  */
     }
 
     #heading {
