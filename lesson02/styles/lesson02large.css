@@ -16,7 +16,6 @@
         
     
         #design-element03 {
-            grid-column: 3/4;
-        
+            grid-column: 3/4;  
     }
 }

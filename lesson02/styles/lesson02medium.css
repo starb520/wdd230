@@ -20,5 +20,7 @@
         grid-column: 1/2;
     }
 
-
+    #heading {
+        width: 100%;
+    }
 }
