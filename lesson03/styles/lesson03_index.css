@@ -1,0 +1,152 @@
+/* font-family: 'El Messiri', sans-serif;
+font-family: 'Handlee', cursive;
+font-family: 'Raleway', sans-serif; */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;  
+}
+
+.logo {
+    width: 0;
+
+}
+
+header {
+    background-color: #6A0136;
+    justify-content: space-around;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+header a:hover {
+    background-color:#AAAAA0;
+    color: #3e4041; 
+    padding: 1%;
+}
+
+
+
+#home-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+#site-title {
+    grid-column: 1/1;
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+
+#site-title h5 {
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+    color: #EFDC14;
+}
+
+#site-title h3 {
+    font-size: 35px;
+    color:#4C4C43;
+}
+
+#site-purpose {
+    margin: 5% 5% 2% 5%;
+}
+
+#domain-name {
+    margin: 0 5% 5% 5%;
+}
+
+
+footer {
+    display: flex;
+    align-items:center;
+    justify-content:end;
+    padding: .5%;
+    gap: 2%;
+    background-color: #6A0136;
+    color:aliceblue;
+    font-size: 13px;
+    flex-direction: column;
+}
+
+footer h3 a{
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 15px;  
+}
+
+.social a img {
+    border-radius: 15%;
+    text-decoration: none;
+    width: 20%;
+}
+
+@media only screen and (min-width: 770px) {
+    .logo {
+        width: 10%;
+        border-radius: 60%; 
+        margin: .5%; 
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #site-title h1 {
+        font-size: 100px;
+        line-height: 0;
+        color:#4C4C43;
+        padding:0;
+        margin-bottom: 4%;
+        margin-top: 8%;
+        
+    }
+
+    #site-title h5 {
+        font-size: 20px;
+        font-family: 'Handlee', cursive;
+        color: #EFDC14;
+        padding-top: 1%;
+    }
+
+
+    footer {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/*** change nav bar to column when screen is large***/
+@media only screen and (min-width: 900px) {
+    header {
+        display:flex;
+        flex-direction: row;
+    }
+
+    
+    #site-title {
+        margin-top: 2%;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: row;
+    }
+}
