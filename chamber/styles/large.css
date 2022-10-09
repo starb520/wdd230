@@ -36,10 +36,16 @@
         display: none;
     }
 
+    .social a img {
+        height: 35px;
+        margin-right: 10px;
+    }
+
     .social img {
         flex-direction: row;
         padding: 5px;
-        height: 30px;
+        height: 5px;
+        margin-right: 0px;
     }
 
     #date {
