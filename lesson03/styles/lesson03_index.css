@@ -38,7 +38,6 @@ header a:hover {
 }
 
 
-
 #home-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -47,6 +46,11 @@ header a:hover {
 
 #home-grid #site-title h5 {
     font-size: 25px;
+}
+
+.photo_link img{
+    width:100px;
+    padding-top: 5%;
 }
 
 #site-title {

@@ -1,0 +1,210 @@
+/* font-family: 'El Messiri', sans-serif;
+font-family: 'Handlee', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Merriweather Sans', sans-serif; */
+
+* {
+	margin: 0;
+	padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo_header {
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 3px;
+    /* margin-left: 10%;
+    margin-top: 8%; */
+}
+
+
+header {
+    display: flex;
+    justify-content:space-around;
+    height: 100px;
+}
+
+header div a {
+    width: 0px;
+}
+
+.social img {
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;   
+}
+
+.social {
+    width: 20px;
+    justify-content: center;
+    padding-top: 8px;
+    /* margin-left: -10px; */
+}
+
+#title {
+    font-family: 'Raleway', sans-serif; 
+    color: aliceblue;
+    justify-content: center;  
+}
+
+#title h1 {
+    margin-left: 5px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+#title h3 {
+    margin-left: 5px;
+    justify-content: space-around;
+    font-size: 10px;
+}
+
+header {
+    background-color: #6A0136;
+}
+
+nav button {
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #AAAAA0;
+    height: 10px;
+    padding-top: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    background: #4C4C43;
+}
+
+#date {
+    background-color:#6a013685;
+    color: aliceblue;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 12px;
+    padding: 2px;
+    margin: -20px 5px 10px 5px;
+    text-align: center;   
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    margin-bottom: 8px;
+}
+
+#hero {
+    background-color: gainsboro;
+    border-style: ridge;
+    height: 150px;
+    grid-column: 1/1;
+    grid-row: 1/2;
+    
+}
+
+#event {
+    background-color: gainsboro;
+    border-style: ridge;
+    height: 150px;
+    grid-column: 1/1;
+    grid-row: 2/3;
+}
+
+#weather {
+    background-color: gainsboro;
+    border-style: ridge;
+    height: 150px;
+    grid-column: 1/1;
+    grid-row: 3/4;
+}
+
+#news_release {
+    background-color: gainsboro;
+    border-style: ridge;
+    height: 150px;
+    grid-column: 1/1;
+    grid-row: 4/5;
+}
+
+#spotlights {
+    /* display: flex;
+    flex-direction: column; */
+    background-color: gainsboro;
+    /* border-style: ridge; */
+    height: 200px;
+    grid-column: 1/1;
+    grid-row: 5/6;
+    display: flex;
+    flex-direction: column;   
+}
+
+.spotlight01 {
+    border-style: ridge;
+    display: inline;
+    height: 100%;
+}
+
+.spotlight02 {
+    display: inline;
+    height: 100%;
+    border-style: ridge;
+}
+
+#join {
+   display: none;
+}
+
+footer {
+    display: flex;
+    background-color: #6A0136;
+    text-align: center;
+    color:aliceblue;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#address h3 {
+    margin-bottom: 20px;
+}
+
+#address h4 {
+    font-size: 10px;
+    font-family: 'Merriweather Sans', sans-serif; 
+}
+
+ #contact_info {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 10px;
+ }
+
+ #wdd230_info {
+    font-size: 10px;
+    margin-top: 5px;;
+ }
+
+.logo_footer {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home Page Rexburg Chamber of Commerce">
+    <title>Rexburg Chamber of Commerce</title>
+
+    <!-- normalize html -->
+    <link rel="stylesheet" href="../styles/normalize.css">
+    
+    <!-- links to fonts for Chamber of Commerce planning webpages -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Merriweather+Sans:ital,wght@1,300&family=Raleway:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
+
+    <!-- connect the style sheet-->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+    <header> 
+        <a class="photo_link" href="index.html">          
+            <img class="logo_header" src="..\lesson03\images\logo.jpeg" alt="Chamber of Commerce">
+        </a>
+        <section id="title">
+            <h1>Rexburg</h1>
+            <h3>Chamber of Commerce</h3>
+        </section>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="../lesson03/images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="../lesson03/images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="../lesson03/images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span></button>
+            <ul id="nav_menu">
+                <li><a href="index.html">Discover</a></li>
+                <li><a href="target-audience.html">Directory</a></li>
+                <li><a href="color-scheme.html">Join</a></li>
+                <li><a href="typography.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <p id="date"></p>
+
+    <main>
+        <section id="hero">Hero with site name and call to action.</section>
+        <section id="event">Event</section>
+        <section id="weather">Weather</section>
+        <section id="news_release">News Realease</section>
+        <section id="spotlights">
+            <div class="spotlight01">Spotlight 1</div>
+            <div class="spotlight02">Spotlight 2</div>
+        </section>
+        <section id="join">Join</section>
+      
+    </main>  
+
+    <footer>
+        <a class="logo_link" href="index.html">          
+            <img class="logo_footer" src="..\lesson03\images\logo.jpeg" alt="Chamber of Commerce">
+        </a>
+        <div id="address">
+            <h3>Rexburg Chamber of Commerce</h3>
+            <h4>162 West Main St</h4>
+            <h4>Rexburg, ID 83440</h4>
+        </div>
+        <div id="contact_info">
+            <h4>info@rexburgchamber.com</h4>
+            <h4>(208)356-5700</h4>
+        </div>
+        <div id="wdd230_info">
+            <h5>&copy;<span id="year"></span> Rexburg Chamber | Star D Balls | WDD 230 | Last Modified <span id="current_date"></span></h5>
+        </div>
+
+
+        <!-- <h3><a href="#">Contact Us</a></h3> -->
+    </footer>    
+    
+    <script src="js/index.js"></script> 
+</body>
+</html>
