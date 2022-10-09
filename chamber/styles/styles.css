@@ -211,4 +211,11 @@ footer {
     border-radius: 50%;
 }
 
+.img_map {
+    width: 25px;
+    height: 25px;
+    display: inline;
+    margin-top: 5px;
+}
+
 
