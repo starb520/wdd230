@@ -78,6 +78,9 @@ nav button {
     border: none;
     font-size: 2rem;
     color: #AAAAA0;
+    /* position: absolute; */
+    /* margin-top: -25px;
+    margin-left: -20px; */
     /* height: 10px;
     padding-top: 15px; */
 }
