@@ -113,16 +113,25 @@ nav ul li a{
    
 }
 
-
-
 #date {
-    background-color:#6a013685;
+    background-color:#6A0136;
     color: aliceblue;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 12px;
-    padding: 2px;
-    margin: -20px 5px 10px 5px;
+    padding-bottom: 20px;
+    /* margin: -20px 5px 10px 5px; */
     text-align: center;   
+}
+
+.meeting_banner{
+    background-color: #EFDC14;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    display: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    /* color:rgba(255, 255, 255); */
 }
 
 main {
@@ -137,8 +146,14 @@ main {
     border-style: ridge;
     height: 150px;
     grid-column: 1/1;
-    /* grid-row: 1/2; */
-    
+    /* grid-row: 1/2; */ 
+    position: relative;  
+}
+
+#hero button {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
 }
 
 #event {
@@ -187,6 +202,10 @@ main {
     display: inline;
     height: 100%;
     border-style: ridge;
+}
+
+.spotlight03 {
+    display: none;
 }
 
 #join {

@@ -6,10 +6,16 @@
 
     #title h1 {
         font-size: 35px;
+        margin-left: -140px;
     }
 
     #title h3 {
         font-size: 25px;
+        margin-left: -10px;
+    }
+
+    #title {
+        margin-top: -25px;
     }
 
     nav ul {
@@ -31,6 +37,9 @@
 
     .social {
         order: 5;
+        /* margin-left: -75px; */
+        padding-right: 25px;
+        padding-bottom: 25px;
     }
 
     nav button {
@@ -51,16 +60,25 @@
 
     #date {
         font-size: 20px;
-        margin-top: -30px;
+        /* margin-top: -30px; */
     }
 
-    .logo_header {
-        height: 105px;
-        width: 105px;
-        /* padding-top: 3px; */
-        margin-top: 10px;
-     
+    .meeting_banner {
+        font-size: 30px;
+        margin: 10px 55px 10px 55px;
+        padding: 10px;
     }
+
+    /* logo picture */
+    .logo_header {
+        height: 130px;
+        width: 130px;
+        margin-left: 100px;
+        /* margin-right: -40px; */
+        /* padding-top: 3px;
+        margin-top: 100px; */
+    }
+
 
     main {
         display: grid;
@@ -109,6 +127,11 @@
     .spotlight02 {
         height: 100%;
         
+    }
+
+    .spotlight03 {
+        display: block;
+        height: 100%;
     }
 
     footer {

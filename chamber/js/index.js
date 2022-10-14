@@ -17,3 +17,7 @@ function toggleMenu() {
   
 const x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu;
+
+if (date.getDay() == 1 || date.getDay() == 3) {
+    document.querySelector('.meeting_banner').style.display = 'block';
+}
