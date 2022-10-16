@@ -121,6 +121,7 @@ nav ul li a{
     padding-bottom: 20px;
     /* margin: -20px 5px 10px 5px; */
     text-align: center;   
+    
 }
 
 .meeting_banner{
@@ -138,79 +139,220 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     gap: 5px;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
 }
 
 #hero {
-    background-color: gainsboro;
-    border-style: ridge;
-    height: 150px;
+    /* background-color: gainsboro;
+    border-style: ridge; */
+    /* height: auto; */
     grid-column: 1/1;
-    /* grid-row: 1/2; */ 
+    /* grid-row: 1/2;  */
     position: relative;  
 }
 
-#hero button {
+.hero-img {
+    width: 100%;
+    border-radius: .5rem;
+    border:.2rem  double #434341;
+    /* height: auto; */
+}
+
+#join_btn {
     position: absolute;
-    bottom: 20px;
-    right: 50px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background: #AAAAA0;
+    border:rgba(255, 255, 255, 0.5);
+    box-shadow: .2rem .3rem #888888;
+    /* border: none; */
+    border-radius: 5px;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    color: #EFDC14;
+    padding: .25rem;
 }
 
 #event {
-    background-color: gainsboro;
-    border-style: ridge;
-    height: 150px;
+    background-color: #A52A2A;
+    width: 100%;
+    /* border-style: ridge;  */
+    /* height: 100%; */
     grid-column: 1/1;
-    /* grid-row: 2/3; */
+    grid-row: 2/3;
+    width: 250px;
+    height: 350px;
+    margin: auto;
+    border-radius: 5%;
+}
+
+.oktuberfest {
+    /* grid-column: 1/1;
+    grid-row: 2/3; */
+ 
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    
 }
 
 #weather {
-    background-color: gainsboro;
-    border-style: ridge;
-    height: 150px;
+    /* background-color: gainsboro; */
+    /* border-style: ridge; */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* margin-left: 10%; */
     grid-column: 1/1;
+    margin: auto;
+   /* padding-left: 10rem; */
     /* grid-row: 3/4; */
 }
 
-#news_release {
-    background-color: gainsboro;
-    border-style: ridge;
-    height: 150px;
-    grid-column: 1/1;
-    /* grid-row: 4/5; */
+.weather-img {
+    border-radius: .5rem;
+    /* width: 100%;
+    height: 100%; */
 }
 
-#spotlights {
+#news_release {
+    background-color: #AAAAA0;
+    border-style: ridge;
+    /* height: 100%; */
+    grid-column: 1/1;
+    /* grid-row: 4/5; */
+    font-size: 16px;
+    text-align: center;
+    padding: .80rem;
+    font-size: 12px;
+    border:.2rem  double #434341;
+    border-radius: .5rem;
+}
+
+#news_release h3 {
+    padding: .80rem .65rem .5rem .65rem;
+}
+    
+
+.spotlights {
     /* display: flex;
     flex-direction: column; */
-    background-color: gainsboro;
+    /* background-color: gainsboro; */
     /* border-style: ridge; */
-    height: 200px;
+    
     grid-column: 1/1;
-    /* grid-row: 5/6; */
-    display: flex;
-    flex-direction: column;   
+    grid-row: 5/6;
+    /* display: flex;
+    flex-direction: column;    */
+    display: grid;
+    gap: .2rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
 }
 
 .spotlight01 {
-    border-style: ridge;
-    display: inline;
+    /* border-style: ridge; */
+    background-color: gainsboro;
+    grid-row: 1/2;
+    border-radius: .5rem;
     height: 100%;
+    padding-bottom: .5rem;
+   
 }
+
+.spotlight01-img {
+    /* margin-top: .75rem; */
+    margin: .65rem;
+    
+    /* height: 50%; */
+    width: 50%;
+    grid-row: 1/2;
+    margin-left: 6.5rem;
+}
+
+.crisis-center-address {
+    font-size: .80rem;
+    text-align: center;
+    display: block;
+    align-content: center;
+    grid-row: 1/2;
+}
+
 
 .spotlight02 {
     display: inline;
     height: 100%;
-    border-style: ridge;
+    grid-row: 2/3;
+    background-color: gainsboro;
+    border-radius: .5rem;
+    /* border-style: ridge; */
+    padding-top: .5rem;
+   
+}
+
+.spotlight02-img {
+    /* margin: .75rem; */
+    margin-left: 6.5rem;
+    width: 50%;
+    
+}
+
+.library-rexburg {
+    font-size: .80rem;
+    text-align: center;
+    display: block;
+    align-content: center;
+    padding-bottom: .2rem;
 }
 
 .spotlight03 {
     display: none;
+    background-color: gainsboro;
 }
 
-#join {
-   display: none;
+.spotlight03-img {
+    /* margin: .75rem; */
+    margin: .65rem;
+    /* height: 50%; */
+    width: 90%;
+    
 }
+
+.romance-theater {
+    font-size: .80rem;
+    text-align: center;
+    display: block;
+    align-content: center;
+}
+
+.join {
+   display: none;
+   position: relative;
+   background-color: gainsboro;
+   text-align: center;
+   border-radius: .5rem;
+}
+
+
+
+#join_us_btn {
+    position: absolute;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    bottom: 1rem;
+    left: 10rem;
+    right: 10rem;
+    font-size: 1.35rem;
+    background: #AAAAA0;
+    border:rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 3px #888888;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #373735;
+}
+
 
 footer {
     display: flex;

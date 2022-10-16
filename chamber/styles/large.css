@@ -78,59 +78,136 @@
         /* padding-top: 3px;
         margin-top: 100px; */
     }
+    nav ul li a:hover {
+        background-color:#AAAAA0;
+        padding: 1%;
+    }
 
 
     main {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
-        /* grid-template-rows: 1fr 1fr 1fr; */
+        gap: .25rem;
+        
     }
 
     #event {
-        grid-column: 1/2;
+        /* grid-column: 1/2;
         grid-row: 1/2;
+        width: 100%; */
+        /* height: 80%; */
+        grid-row: 1/2;
+        grid-column: 1/2;
+        margin: 2rem;
+    
+       
+    }
+
+    .oktuberfest {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        width: 100%;
+        height: 100%;
     }
 
     #weather {
         grid-column: 1/2;
         grid-row: 2/3;
-    }
-
-    #join {
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-
-    #hero {
-        grid-column: 2/3;
-        grid-row: 1/3;
         height: 100%;
     }
+
+    .join {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        position: relative;
+    }
+
+   #join_us_btn {
+        font-size: 1.25rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        left: 2.35rem;
+        right: 2.35rem;
+   }
+    #hero {
+        grid-column: 2/3;
+        /* grid-row: 1/3; */
+        grid-row: 1/3;
+        height: auto;
+    }
+
+    .hero-img {
+        height: 100%;
+    }
+
 
     #news_release {
         grid-column: 2/3;
         grid-row: 3/4;
+        /* grid-row: 3/4; */
     }
 
-    #spotlights {
-        grid-column: 3/4;
+    .spotlights {
         grid-row: 1/4;
-        flex-direction: column;
-        height: 100%;
+        grid-column: 3/4;
+         
+        /* display: grid; */
+        /* grid-template-columns: 1fr; */
+        /* grid-template-rows: 1fr 1fr 1fr; */
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1rem;
     }
 
-    .spotlight01 {
-        height: 100%;
+    .spotlight01{
+        grid-column: 1/2;
+        grid-row: 1/2; 
+        /* height: 100%; */
+        width: 100%;  
+        background-color:gainsboro;     
+    }
+    
+    .spotlight01-img {
+        margin-top: .75rem;
+        width: 100%;
+        margin: 1.25rem 1.25rem 0 1.25rem;
+   
+        /* grid-row: 1/2; */
+    }
+
+   .spotlight02 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 100%;
+        background-color:gainsboro; 
         
     }
 
-    .spotlight02 {
-        height: 100%;
-        
+    .spotlight02-img {
+        margin-top: .75rem;
+        width: 100%;
+        margin: 1.25rem 1.25rem 0 1.25rem;
+   
+        /* grid-row: 2/3; */
     }
-
     .spotlight03 {
         display: block;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        background-color:gainsboro; 
+        border-radius: .5rem;
+    }
+
+    .spotlight03-img {
+        margin: 1.25rem 1.25rem 0 1.25rem;
+        width: 100px;
+        height: 150px;
+        /* grid-row: 3/4; */
+    }
+
+    .join {
+        width: 100%;
         height: 100%;
     }
 
