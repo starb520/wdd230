@@ -87,7 +87,7 @@
     main {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
-        gap: .25rem;
+        gap: .3rem;
         
     }
 
@@ -169,9 +169,9 @@
     }
     
     .spotlight01-img {
-        margin-top: .75rem;
-        width: 100%;
-        margin: 1.25rem 1.25rem 0 1.25rem;
+        /* margin-top: .75rem; */
+        /* width: auto; */
+        /* margin: .75rem 1.25rem 0 1.25rem; */
    
         /* grid-row: 1/2; */
     }
@@ -200,7 +200,7 @@
     }
 
     .spotlight03-img {
-        margin: 1.25rem 1.25rem 0 1.25rem;
+        margin: auto
         width: 100px;
         height: 150px;
         /* grid-row: 3/4; */
