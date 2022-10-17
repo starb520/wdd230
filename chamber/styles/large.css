@@ -150,10 +150,6 @@
     .spotlights {
         grid-row: 1/4;
         grid-column: 3/4;
-         
-        /* display: grid; */
-        /* grid-template-columns: 1fr; */
-        /* grid-template-rows: 1fr 1fr 1fr; */
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -162,18 +158,13 @@
 
     .spotlight01{
         grid-column: 1/2;
-        grid-row: 1/2; 
-        /* height: 100%; */
-        width: 100%;  
-        background-color:gainsboro;     
+        grid-row: 1/2;       
+        background-color:gainsboro;    
+           
     }
     
     .spotlight01-img {
-        /* margin-top: .75rem; */
-        /* width: auto; */
-        /* margin: .75rem 1.25rem 0 1.25rem; */
-   
-        /* grid-row: 1/2; */
+     
     }
 
    .spotlight02 {
@@ -187,7 +178,7 @@
     .spotlight02-img {
         margin-top: .75rem;
         width: 100%;
-        margin: 1.25rem 1.25rem 0 1.25rem;
+        /* margin: 1.25rem 1.25rem 0 1.25rem; */
    
         /* grid-row: 2/3; */
     }
@@ -200,7 +191,7 @@
     }
 
     .spotlight03-img {
-        margin: auto
+        margin: auto;
         width: 100px;
         height: 150px;
         /* grid-row: 3/4; */
