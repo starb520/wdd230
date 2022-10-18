@@ -176,8 +176,6 @@ main {
 #event {
     background-color: #A52A2A;
     width: 100%;
-    /* border-style: ridge;  */
-    /* height: 100%; */
     grid-column: 1/1;
     grid-row: 2/3;
     width: 250px;
@@ -186,10 +184,7 @@ main {
     border-radius: 5%;
 }
 
-.oktuberfest {
-    /* grid-column: 1/1;
-    grid-row: 2/3; */
- 
+.oktuberfest { 
     width: 100%;
     height: 100%;
     border-radius: 5%;
@@ -197,29 +192,18 @@ main {
 }
 
 #weather {
-    /* background-color: gainsboro; */
-    /* border-style: ridge; */
-    /* height: 100%; */
-    /* width: 100%; */
-    /* margin-left: 10%; */
     grid-column: 1/1;
     margin: auto;
-   /* padding-left: 10rem; */
-    /* grid-row: 3/4; */
 }
 
 .weather-img {
     border-radius: .5rem;
-    /* width: 100%;
-    height: 100%; */
 }
 
 #news_release {
     background-color: #AAAAA0;
     border-style: ridge;
-    /* height: 100%; */
     grid-column: 1/1;
-    /* grid-row: 4/5; */
     font-size: 16px;
     text-align: center;
     padding: .80rem;
@@ -233,16 +217,9 @@ main {
 }
     
 
-.spotlights {
-    /* display: flex;
-    flex-direction: column; */
-    /* background-color: gainsboro; */
-    /* border-style: ridge; */
-    
+.spotlights {    
     grid-column: 1/1;
     grid-row: 5/6;
-    /* display: flex;
-    flex-direction: column;    */
     display: grid;
     gap: .2rem;
     grid-template-columns: 1fr;
@@ -251,7 +228,6 @@ main {
 }
 
 .spotlight01 {
-    /* border-style: ridge; */
     background-color: gainsboro;
     grid-row: 1/2;
     border-radius: .5rem;
@@ -261,10 +237,7 @@ main {
 }
 
 .spotlight01-img {
-    /* margin-top: .75rem; */
     margin: .65rem;
-    
-    /* height: 50%; */
     width: 50%;
     grid-row: 1/2;
     margin-left: 6.5rem;
@@ -285,13 +258,11 @@ main {
     grid-row: 2/3;
     background-color: gainsboro;
     border-radius: .5rem;
-    /* border-style: ridge; */
     padding-top: .5rem;
    
 }
 
 .spotlight02-img {
-    /* margin: .75rem; */
     margin-left: 6.5rem;
     width: 50%;
     
@@ -311,9 +282,7 @@ main {
 }
 
 .spotlight03-img {
-    /* margin: .75rem; */
     margin: .65rem;
-    /* height: 50%; */
     width: 90%;
     
 }
