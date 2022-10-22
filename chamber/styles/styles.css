@@ -9,101 +9,98 @@ font-family: 'Merriweather Sans', sans-serif; */
     font-family: 'Raleway', sans-serif;
 }
 
-.logo_header {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin-top: 3px;
-    margin-left: 3px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-}
-
-
 header {
-    display: flex;
-    justify-content:space-around;
-    height: 100px;
+    padding-top: 0;
+    padding-bottom:0;
     background-color: #6A0136;
-    text-align: center;
-    align-items: center;  
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
 }
 
-header div a {
-    width: 0px;
-}
-
-.social img {
-    height: 20px;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;   
-}
-
-.social {
-    width: 20px;
+.name {
+    color: white;
+    grid-row: 1/3;
+    display: flex; 
+    gap: 3%;
     justify-content: center;
-    padding-top: 8px;
-}
-
-#title {
-    font-family: 'Raleway', sans-serif; 
-    color: aliceblue;
-    justify-content: center;  
-}
-
-#title h1 {
-    margin-left: 5px;
-    margin-bottom: 0;
-    font-size: 20px;
-}
-
-#title h3 {
-    margin-left: 5px;
-    justify-content: space-around;
-    font-size: 10px;
+    align-items: center;
 }
 
 
+section #title h1 {
+  margin: 0;
+}
 
-nav button {
+.logo_header {
+    width: 100%;
+    height: 100%;
+    border-radius: .25rem;
+}
+
+nav {
+    position: absolute; 
+    right: 0px;
+    top: 4.5rem;
+}
+
+.nav button {
     background: transparent;
     border: none;
-    font-size: 2rem;
-    color: #AAAAA0;
+    font-size: 3rem;
+    color: #AAAAA0; 
+    width: 120px;
 }
 
 nav ul {
+    display: none; 
     list-style-type: none;
-    padding: 0;
-    display: none;
-    
+    flex-direction: column;  
 }
 
 nav ul.open {
-    display: block;
+    display: flex;
 }
 
-nav ul li a{
+nav ul li {  
     text-decoration: none;
-    color: aliceblue;
-    background: #AAAAA0;
-    display: block;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-   
-   
+    list-style-type: none;
+    background-color: #EFDC14;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.75rem;
+    color: white;
 }
 
 #date {
-    background-color:#6A0136;
-    color: aliceblue;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 12px;
-    padding-bottom: 20px;
-    text-align: center;   
-    
+    grid-column: 2/4;
+    grid-row: 2/3;
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: .5rem;
 }
+
+.social {
+    grid-column: 4/6;
+    grid-row: 1/2;
+    display: flex;  
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+
+.social img {
+    width: 70%;
+    border-radius: 2rem;   
+}
+
+
 
 .meeting_banner{
     background-color: #EFDC14;
@@ -123,13 +120,14 @@ main {
 
 #hero {
     grid-column: 1/1;
-    position: relative;  
+    position: relative;
+    z-index: -1; 
 }
 
-.hero-img {
-    width: 100%;
+.hero-image img {
     border-radius: .5rem;
-    border:.2rem  double #434341;
+    width: 100%;
+    height: 100%;
 }
 
 #join_btn {
@@ -147,54 +145,46 @@ main {
 }
 
 #event {
-    background-color: #A52A2A;
-    width: 100%;
     grid-column: 1/1;
     grid-row: 2/3;
-    width: 250px;
-    height: 350px;
-    margin: auto;
-    border-radius: 5%;
+    width: 100%;
+   
 }
 
 .oktuberfest { 
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
-    
+    width: 50%;
+    border-radius: 5%;  
 }
 
 #weather {
+    width: 100%;
     grid-column: 1/1;
-    margin: auto;
+    border: 2px solid lightgray;
+    background-color: gainsboro;
+}
+
+
+#weather p {
+    font-size: 45px;
 }
 
 .weather-img {
-    border-radius: .5rem;
+   width: 30%;
+   float: left;
 }
 
 #news_release {
-    background-color: #AAAAA0;
-    border-style: ridge;
+    background-color: gainsboro;
     grid-column: 1/1;
     font-size: 16px;
     text-align: center;
-    padding: .80rem;
     font-size: 12px;
-    border:.2rem  double #434341;
-    border-radius: .5rem;
-}
-
-#news_release h3 {
-    padding: .80rem .65rem .5rem .65rem;
-}
-    
+}           
 
 .spotlights {    
     grid-column: 1/1;
     grid-row: 5/6;
     display: grid;
-    gap: .2rem;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
 
@@ -204,16 +194,10 @@ main {
     background-color: gainsboro;
     grid-row: 1/2;
     border-radius: .5rem;
-    height: 100%;
-    padding-bottom: .5rem;
-   
 }
 
 .spotlight01-img {
-    margin: .65rem;
-    width: 50%;
-    grid-row: 1/2;
-    margin-left: 6.5rem;
+    width: 80%;
 }
 
 .crisis-center-address {
@@ -221,24 +205,19 @@ main {
     text-align: center;
     display: block;
     align-content: center;
-    grid-row: 1/2;
+  
 }
-
 
 .spotlight02 {
     display: inline;
     height: 100%;
     grid-row: 2/3;
     background-color: gainsboro;
-    border-radius: .5rem;
-    padding-top: .5rem;
-   
+    border-radius: .5rem;   
 }
 
 .spotlight02-img {
-    margin-left: 6.5rem;
-    width: 50%;
-    
+    width: 80%;
 }
 
 .library-rexburg {
@@ -254,11 +233,6 @@ main {
     background-color: gainsboro;
 }
 
-.spotlight03-img {
-    margin: .65rem;
-    width: 90%;
-    
-}
 
 .romance-theater {
     font-size: .80rem;
@@ -271,18 +245,12 @@ main {
    display: none;
    position: relative;
    background-color: gainsboro;
+   border: 2px solid lightgray;
    text-align: center;
-   border-radius: .5rem;
 }
-
-
 
 #join_us_btn {
     position: absolute;
-    padding-right: 10rem;
-    padding-left: 10rem;
-    padding-top: .2rem;
-    padding-bottom: .2rem;
     bottom: 1rem;
     left: 10rem;
     right: 10rem;

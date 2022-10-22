@@ -12,8 +12,10 @@ body {
 }
 
 .logo {
-    width: 0;
-
+    margin-top: .5rem;
+    margin-bottom: .25rem;
+    border-radius: .75rem;
+    width: 10rem;   
 }
 
 header {
@@ -35,6 +37,7 @@ header a:hover {
     background-color:#AAAAA0;
     color: #3e4041; 
     padding: 1%;
+    border-radius: .75rem;
 }
 
 
@@ -49,8 +52,7 @@ header a:hover {
 }
 
 .photo_link img{
-    width:100px;
-    padding-top: 5%;
+ 
 }
 
 #site-title {
@@ -105,9 +107,7 @@ footer h3 a{
 
 @media only screen and (min-width: 770px) {
     .logo {
-        width: 10%;
-        border-radius: 60%; 
-        margin: .5%; 
+        border-radius: .75rem; 
     }
 
     header {
@@ -139,7 +139,7 @@ footer h3 a{
     }
 }
 
-/*** change nav bar to column when screen is large***/
+/*** changee nav bar to column when screen is large***/
 @media only screen and (min-width: 900px) {
     header {
         display:flex;

@@ -23,13 +23,15 @@
 
 <body>
     <header> 
-        <a class="photo_link" href="index.html">          
-            <img class="logo_header" src="../lesson03/images/logo.jpeg" alt="Chamber of Commerce">
-        </a>
-
-        <section id="title">
-            <h1>Rexburg</h1>
-            <h3>Chamber of Commerce</h3>
+        <section class="name">
+            <a class="photo_link" href="index.html">          
+                <img class="logo_header" src="../lesson03/images/rexburg.webp" alt="Chamber of Commerce">
+            </a>
+            
+            <div id="title">
+                <h1>Rexburg</h1>
+                <h3>Chamber of Commerce</h3>
+            </div>
         </section>
 
         <div class="social">
@@ -43,7 +45,8 @@
                 <img src="../lesson03/images/instagram.png" alt="instagram icon">
             </a>
         </div>
-        <nav>
+
+        <nav class="nav">
             <button id="hamburgerBtn"><span>&#9776;</span></button>
             <ul id="nav_menu">
                 <li><a href="#">Discover</a></li>
@@ -51,16 +54,25 @@
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-        
         </nav>
+
+        <div id="date"></div>
     </header>
-    <p id="date"></p>
+   
     <div class="meeting_banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
 
     <main>
         <section id="hero">
             <button id="join_btn">Join the Chamber</button>
-            <img class="hero-img" src="images/tabernacle_rexburg.webp" alt="Rexburg City Tabernacle">
+            <picture class="hero-image">
+                <source srcset="images/tabernacle200.jpg" media="(max-width: 216px)">
+                <source srcset="images/tabernacle400Small.jpg" media="(min-width:217px) and (max-width: 414px)">
+                <source srcset="images/tabernacle900Large.jpg" media="(min-width:415px) and (max-width: 898px)">
+                <img src="images/tabernacle700Medium.jpg" alt="tabernacle">
+
+                
+                
+            </picture>
         </section>
 
         <section id="event">
@@ -68,7 +80,12 @@
         </section>
 
         <section id="weather">
-            <img class="weather-img" src="images/weather.png" alt="weather">
+            <p>Weather</p>
+            <img class="weather-img" src="images/weather03.png" alt="weather image">
+            <div ><span id="temp">45</span>&#8457;</div>
+            <hr>
+            <div id="wind_speed">Wind Speed: <span id="windsp">30</span></div>
+            <div id="wind_chill">Wind Chill: <span id="windch"></span></div>
         </section>
         
         <section id="news_release">
@@ -130,6 +147,7 @@
         <!-- <h3><a href="#">Contact Us</a></h3> -->
     </footer>    
 
-    <script src="js/index.js"></script> 
+    <script src="js/index.js"></script>
+    <script src="js/windchill.js"></script> 
 </body>
 </html>
