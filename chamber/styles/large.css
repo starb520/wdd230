@@ -220,9 +220,6 @@
         margin: .5rem;                 
     }
 
-    .spotlight01 img {
-        /* width: 100%; */
-    }
     
    .spotlight02 {
         grid-column: 1/2;
@@ -233,7 +230,6 @@
 
     .spotlight02-img {
         margin-top: .75rem;
-        /* width: 100%; */
     }
 
     .spotlight03 {
@@ -247,8 +243,8 @@
 
     .spotlight03-img {
         margin: auto;
-        width: 100px;
-        height: 150px;
+        width: 50%;
+        height: 50%;
     }
 
     footer {
