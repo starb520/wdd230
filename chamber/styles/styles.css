@@ -130,11 +130,11 @@ main {
 
 #join_btn {
     position: absolute;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: bold;
-    background: white;
+    background: #AAAAA0;
     border:rgba(255, 255, 255, 0.5);
-    /* box-shadow: .2rem .3rem #AAAAA0; */
+    box-shadow: .2rem .3rem #AAAAA0;
     border-radius: 5px;
     bottom: 1.5rem;
     right: 1.5rem;
