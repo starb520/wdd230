@@ -130,8 +130,8 @@ main {
 
 #join_btn {
     position: absolute;
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.75rem;
+    /* font-weight: bold; */
     background: #AAAAA0;
     border:rgba(255, 255, 255, 0.5);
     box-shadow: .2rem .3rem #888888;
