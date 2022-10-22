@@ -132,9 +132,9 @@ main {
     position: absolute;
     font-size: 1.5rem;
     font-weight: bold;
-    background: #AAAAA0;
+    background: white;
     border:rgba(255, 255, 255, 0.5);
-    box-shadow: .2rem .3rem #888888;
+    /* box-shadow: .2rem .3rem #AAAAA0; */
     border-radius: 5px;
     bottom: 1.5rem;
     right: 1.5rem;
