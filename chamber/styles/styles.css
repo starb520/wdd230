@@ -100,8 +100,6 @@ nav ul li a {
     border-radius: 2rem;   
 }
 
-
-
 .meeting_banner{
     background-color: #EFDC14;
     margin: 10px 10px 10px 10px;
@@ -132,7 +130,7 @@ main {
 
 #join_btn {
     position: absolute;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
     background: #AAAAA0;
     border:rgba(255, 255, 255, 0.5);
