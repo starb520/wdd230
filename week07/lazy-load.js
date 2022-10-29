@@ -1,20 +1,4 @@
-// const image = document.querySelectorAll('img');
 
-// const io = new IntersectionObserver (
-//     (entries, io) => {
-//         entries.forEach(entry => {
-//         console.log(entries);
-//         })
-
-//     },
-//     {
-//         threshold: [.5]
-//     }
-// );
-
-// image.forEach(image => {
-//     io.observe(image);
-// })
 
 const pimages = document.querySelectorAll('[data-src]');
 const options = {

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the beauty and adventure of Rexburg">
+    <title>Discover Rexburg</title>
+
+    <!-- normalize -->
+    <link rel="stylesheet" href="../styles/normalize.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Merriweather+Sans:ital,wght@1,300&family=Raleway:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
+
+    <!-- styles-->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    
+    <!-- javascript -->
+    <script defer src="js/index.js"></script>
+      
+</head>
+
+<body>
+    <header> 
+        <section class="name">
+            <a class="photo_link" href="index.html">          
+                <img class="logo_header" src="../lesson03/images/rexburg.webp" alt="Chamber of Commerce">
+            </a>
+            
+            <div id="title">
+                <h1>Rexburg</h1>
+                <h3>Chamber of Commerce</h3>
+            </div>
+        </section>
+
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="../lesson03/images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="../lesson03/images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="../lesson03/images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+
+        <nav class="nav">
+            <button id="hamburgerBtn"><span>&#9776;</span></button>
+            <ul id="nav_menu">
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="date"></div>
+    </header>
+
+    <main id="images">
+        <div class="difference">Days Since Your Last Visit: <span id="diff"> </span></div>
+    
+        <div  id="r_mountain" class="shrink"><img src="https://dummyimage.com/360x240/aaaaa0/fafafa.jpg&text=R+Mountain" data-src="images/r_mountain.jpg" alt="R Mountain">R Mountain</div>
+
+        <div id="centinneal_carousel" class="shrink"><img src="https://dummyimage.com/360x240/aaaaa0/fafafa.jpg&text=Centennial+Carousel" data-src="images/carousel.jpg" alt="Centinneal Carousel">Centinneal Carousel</div>
+
+        <div id="flood_museum" class="shrink"><img src="https://dummyimage.com/360x240/aaaaa0/fafafa.jpg&text=Teton+Flood+Museum" data-src="images/flood_museum.jpg" alt="Teton Flood Museum">Teton Flood Museum</div>
+
+        <div id="porter_park" class="shrink"><img src="https://dummyimage.com/360x240/aaaaa0/fafafa.jpg&text=Porter+Park" data-src="images/porter_park.jpg" alt="Porter Park">Porter Park</div>
+
+        <div id="rexburg_rapids" class="shrink"><img src="https://dummyimage.com/360x240/aaaaa0/fafafa.jpg&text=Rexburg+Rapids" data-src="images/rexburg_rapids.jpg" alt="Rexburg Rapids">Rexburg Rapids</div>
+
+        <div id="sand_dunes" class="shrink"><img src="https://dummyimage.com/360x240/aaaaa0/fafafa.jpg&text=Sand+Dunes" data-src="images/sand_dunes.jpg" alt="Saint Anthony Sand Dunes">Saint Anthony Sand Dunes</div>
+
+        <div  id="shops" class="shrink"><img src="https://dummyimage.com/360x240/aaaaa0/fafafa.jpg&text=Specialty+Shops+around+Town" data-src="images/shops.jpg" alt="Special Shops">Specialty Shops around Town</div>
+
+        <div id="smith_park" class="shrink"><img src="https://dummyimage.com/360x240/aaaaa0/fafafa.jpg&text=Smith+Park" data-src="images/smith_park.jpg" alt="Smith Park Memorial">Smith Park Memorial</div>
+
+        <div id="splash_pad" class="shrink"><img src="https://dummyimage.com/360x240/aaaaa0/fafafa.jpg&text=Splash+Pad" data-src="images/splash_pad.jpg" alt="Splash Pad">Porter Park Splash Pad</div>
+
+    </main>
+
+    <footer>
+        <a class="logo_link" href="index.html">          
+            <img class="logo_footer" src="../lesson03/images/logo.jpeg" alt="Chamber of Commerce">
+        </a>
+        <div id="address">
+            <h3>Rexburg Chamber of Commerce</h3>
+            <h4>162 West Main St</h4>
+            <h4>Rexburg, ID 83440</h4>
+        </div>
+        <div id="contact_info">
+            <h4>info@rexburgchamber.com</h4>
+            <h4>(208)356-5700</h4>
+            <a class="map" href="https://www.google.com/maps/d/u/0/viewer?msa=0&mid=1nHyi_71Xq7QOoXMsQO2yohL_Hv0&ll=43.66375462321973%2C-111.92430253331969&z=10">     
+                <img class="img_map" src="images/map.png" alt="Rexburg Map">
+            </a>        
+        </div>
+        <div id="wdd230_info">
+            <h5>&copy;<span id="year"></span> Rexburg Chamber | Star D Balls | WDD 230 | Last Modified <span id="current_date"></span></h5>
+        </div>
+        <!-- <h3><a href="#">Contact Us</a></h3> -->
+    </footer> 
+     
+</body>
+
+</html>
