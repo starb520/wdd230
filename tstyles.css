@@ -1,0 +1,43 @@
+
+table {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 4px 10px rgb(40, 79, 98);
+  
+}
+
+table, tr, th, td {
+    border: 2px solid gray;
+    border-collapse: collapse;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+table tr:nth-child(odd) {
+    background-color: rgba(136, 194, 210, 0.342);
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(113, 202, 198, 0.352)
+}
+
+table tr:first-child, table tr:last-child {
+    background-color: rgb(136, 194, 210);
+}
+
+table tr:first-child {
+    font-size: 25px;
+}
+
+table tr:last-child {
+    font-size: 12px;
+}
+
+table tr:nth-child(2) {
+    background-color: rgb(113, 162, 202);
+    color: white;
+    font-weight: bold;
+}
