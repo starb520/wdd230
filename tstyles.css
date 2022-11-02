@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 table {
     width: 30vw;
     margin: 0 auto;
     margin-top: 80px;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     box-shadow: 5px 4px 10px rgb(40, 79, 98);
   
 }
@@ -16,31 +17,31 @@ table, tr, th, td {
     padding-bottom: .5rem;
 }
 
-table tr:nth-child(odd) {
-    background-color: rgba(136, 194, 210, 0.342);
+table tbody tr:nth-child(odd) {
+    background-color: rgba(113, 202, 198, 0.352) 
 }
 
 table tr:nth-child(even) {
-    background-color: rgba(113, 202, 198, 0.352)
+    background-color: rgba(136, 194, 210, 0.342);
 }
 
 table tr:first-child, table tr:last-child {
     background-color: rgb(136, 194, 210);
 }
 
-table tr:nth-child(7) td:nth-child(2) {
+table tbody tr:nth-child(5) td:nth-child(3) {
     background-color: rgb(82, 150, 172);
 }
 
-table tr:first-child {
+table thead tr:first-child {
     font-size: 25px;
 }
 
-table tr:last-child {
+table tfoot tr:last-child {
     font-size: 12px;
 }
 
-table tr:nth-child(2) {
+table tbody tr:nth-child(1) {
     background-color: rgb(113, 162, 202);
     color: white;
     font-weight: bold;
