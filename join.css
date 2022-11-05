@@ -21,12 +21,12 @@ input {
     margin-bottom: 8px;
 }
 
-div #radio {
+div .radio {
     display: flex;
     height: 20px;
 }
 
-#radio label {
+.radio label {
     margin: 5px;
 }
 

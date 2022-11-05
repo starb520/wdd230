@@ -54,7 +54,7 @@
     </header>
 
     <section id="main">
-        <form action="get" action="thankyou.html">
+        <form action="thankyou.html">
             <label for="fname">First Name*:</label>
             <input type="text" name="firstname" id="fname" required>
 
@@ -70,32 +70,32 @@
             <label for="bname">Business Name*:</label>
             <input id="bname" type="text" name="businessname" required>
 
-            <label for="title">Business Position Title*:</label>
+            <label for="btitle">Business Position Title*:</label>
             <p> (Only letters, spaces and dashes and must be 7 characters)</p>
-            <input required id="title" type="text" name="title" pattern="[- A-Za-z]+" minlength="7">
+            <input id="btitle" type="text" name="title" pattern="[- A-Za-z]+" minlength="7">
 
             <label for="message">Business Description</label>
             <textarea id="message" placeholder="your business description here"></textarea>
         
             <label id="member">Enter Your Membership</label>
             <div id="radio">
-                <div id="radio">
+                <div class="radio">
                     <input type="radio" id="one" name="mlevel" value="level1">
                     <label for="one">Non Profit</label>
                 </div>
 
-                <div id="radio">
+                <div class="radio">
                     <input type="radio" id="two" name="mlevel" value="level2">
                     <label for="two">Bronze</label>
                 </div>
 
-                <div id="radio">
+                <div class="radio">
                     <input type="radio" id="three" name="mlevel" value="level3">
                     <label for="three">Silver</label>
                 </div>
 
-                <div id="radio">
-                    <input type="radio" id="three" name="mlevel" value="level3">
+                <div class="radio">
+                    <input type="radio" id="four" name="mlevel" value="level4">
                     <label for="four">Gold</label>
                 </div>
             </div>
