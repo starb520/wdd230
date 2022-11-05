@@ -1,0 +1,85 @@
+form input:required {
+    border-left: red solid 6px;
+}
+
+form input:required:valid {
+    border-left: green solid 6px;
+}
+
+form {
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 60%;
+}
+
+label, input {
+    display: block;
+}
+
+input {
+    margin-bottom: 8px;
+}
+
+div #radio {
+    display: flex;
+    height: 20px;
+}
+
+#radio label {
+    margin: 5px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 10px;
+}
+
+#membership_info {
+    margin-left: 15px;
+}
+
+#membership_info ul {
+    padding-left: 50px;
+}
+
+ #membership_info h2 {
+    margin-bottom: 25px;
+ }
+
+
+#email {
+    margin-bottom: 18px;
+}
+
+input {
+    height: 25px;
+}
+
+#message {
+    margin-bottom: 18px;
+}
+
+#button {
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 670px) {
+#membership_info {
+    margin-top: 110px;
+    margin-left: 150px;
+    width: 90%;
+}
+
+#main {
+    flex-direction: row;
+}
+
+}

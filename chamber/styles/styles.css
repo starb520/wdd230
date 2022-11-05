@@ -34,7 +34,7 @@ section #title h1 {
 }
 
 .logo_header {
-    width: 100%;
+    width: 80%;
     height: 68%;
     border-radius: .25rem;
 }
@@ -76,12 +76,7 @@ nav ul li a {
 }
 
 #date {
-    grid-column: 2/4;
-    grid-row: 2/3;
-    display: flex;
-    color: white;
-    justify-content: center;
-    padding-top: .5rem;
+    display: none;
 }
 
 .social {
@@ -295,7 +290,7 @@ footer {
 .logo_footer {
     margin-top: 5px;
     margin-bottom: 10px;
-    width: 80px;
+    width: 15%;
     border-radius: .25rem;
 }
 
@@ -324,4 +319,7 @@ footer {
 #images .difference {
     font-size: 2.5em;
 }
+
+
+
 
