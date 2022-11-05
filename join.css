@@ -71,6 +71,20 @@ input {
     font-size: 20px;
 }
 
+#thankyou h1 span {
+    font-size: 60px;
+    color: #EFDC14;
+    text-shadow: 2px 2px #4C4C43;
+}
+
+#thankyou h1 {
+    color: #4C4C43;
+    text-align: center;
+    border-style: double;
+    margin: 15%;
+    font-size: 50px;
+}
+
 @media only screen and (min-width: 670px) {
 #membership_info {
     margin-top: 110px;
