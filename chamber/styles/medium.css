@@ -34,7 +34,7 @@
         justify-content: center;
         padding-top: .5rem;
     }
-    }
+    
     #hero {
         grid-column: 1/5;
         grid-row: 1/2;
@@ -45,7 +45,7 @@
         grid-row: 2/3;
     }
 
-    .spotlights {
+    #spotlights {
         grid-column: 1/5;
         grid-row: 3/4; 
         display: grid;
@@ -63,7 +63,7 @@
         grid-row: 1/2;
     }
 
-    .join {
+    #join {
         display:block;
         grid-column: 1/5;
         grid-row: 4/5;
@@ -76,7 +76,7 @@
     }
 
     #oktuberfest {
-        height: auto;
+        width: 8em;
     }
 
     #weather {
@@ -183,6 +183,6 @@
         grid-column: 3/4;
     }
     
-
 }
+
 
