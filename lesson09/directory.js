@@ -27,8 +27,37 @@ async function getBusinesses(requestURL) {
         console.log(jsObject);
         const businesses = jsObject['businesses'];
         console.log(businesses[0].name);
-        // businesses.forEach(displayProphets);
+        businesses.forEach(displayBusinesses);
     }
 }
 
 getBusinesses(requestURL);
+
+function displayBusinesses(business) {
+    let card = document.createElement('section');
+    let business_name = document.createElement('h2');
+    let address = document.createElement('p');
+    let website = document.createElement('p');
+    let phone = document.createElement('p');
+    let img = document.createElement('img');
+        
+
+    business_name.textContent = business.name;
+    address.textContent = business.address;
+    website.textContent = business.website;
+    img.setAttribute('src', business.imageurl);
+    img.setAttribute('alt', business.name);
+
+    card.appendChild(h2);
+    document.querySelector('.cards').appendChild(card);
+
+    card.appendChild(dob);
+    document.querySelector('.cards').appendChild(card);
+
+    card.appendChild(pob);
+    document.querySelector('.cards').appendChild(card);
+
+    card.appendChild(img);
+    document.querySelector('.cards').appendChild(card);
+      
+}
