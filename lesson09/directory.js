@@ -35,7 +35,7 @@ getBusinesses(requestURL);
 
 function displayBusinesses(business) {
     let card = document.createElement('section');
-    let name = document.createElement('h2');
+    // let name = document.createElement('h2');
     let address = document.createElement('p');
     let website = document.createElement('p');
     let phone = document.createElement('p');
@@ -48,8 +48,11 @@ function displayBusinesses(business) {
     img.setAttribute('src', business.imageurl);
     img.setAttribute('alt', business.name);
 
-    card.appendChild(name);
+    card.appendChild(img);
     document.querySelector('.cards').appendChild(card);
+
+    // card.appendChild(name);
+    // document.querySelector('.cards').appendChild(card);
 
     card.appendChild(address);
     document.querySelector('.cards').appendChild(card);
@@ -58,9 +61,6 @@ function displayBusinesses(business) {
     document.querySelector('.cards').appendChild(card);
 
     card.appendChild(phone);
-    document.querySelector('.cards').appendChild(card);
-
-    card.appendChild(img);
     document.querySelector('.cards').appendChild(card);
       
 }

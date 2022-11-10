@@ -5,84 +5,84 @@
         "address" : "80 S. 2nd West Rexburg, ID 83440",
         "phone" : "208-356-0170",
         "website" : "https://www.alphagraphics.com/us-idaho-rexburg-us643",
-        "imageurl" : "images/alphagraphics-logo.jpg"
+        "imageurl" : "images/alphagraphics2.jpg"
     },
     {
         "name" : "BYU-I",
         "address" : "154 E Viking St Drive Rexburg, ID 83440",
         "phone" : "208-496-2909",
         "website" : "https://www.byui.edu/radio/stream-943",
-        "imageurl" : "images/byui.png"
+        "imageurl" : "images/byui2.png"
     },
     {
         "name" : "Circle of Love",
         "address" : "64 E Main St. Rexburg, ID 83440",
         "phone" : "208-356-0058",
         "website" : "https://www.mycircleoflove.com/",
-        "imageurl" : "images/circleoflove.png"
+        "imageurl" : "images/circleoflove2.png"
     },
     {
         "name" : "Development Workshop",
         "address": "275 Stationary PL. Rexburg, ID 83440",
         "phone" : "208-356-3722",
         "website" : "https://www.dwinc.org/",
-        "imageurl" : "images/development-workshop-inc..png"
+        "imageurl" : "images/development-workshop2.png"
     },
     {
         "name" : "Family Crisis",
         "address": "16 E Main St. Rexburg, ID 83440",
         "phone" : "208-356-0065",
         "website" : "https://familycrisiscenter.wixsite.com/familycrisiscenter/",
-        "imageurl" : "images/family-crisis.png" 
+        "imageurl" : "images/family-crisis2.png" 
     },
     {
         "name" : "Jamba",
         "address": "Po Box 401 Rexburg, ID 83440",
         "phone" : "208-359-6917",
         "website" : " https://www.jamba.com/",
-        "imageurl" : "images/jamba.png"
+        "imageurl" : "images/jamba2.png"
     },
     {
         "name" : "Kettle",
         "address": "61 E Main St Rexburg, ID 83440",
         "phone" : "208-656-9993",
         "website" : "https://kettleembroidery.com/",
-        "imageurl" : "images/kettle.jpg"
+        "imageurl" : "images/kettle2.jpg"
     },
     {
         "name" : "Mill Hollow",
         "address": "48 S 1st E Rexburg, ID 83440",
         "phone" : "208-356-0847",
         "website" : "https://www.millhollowrestaurant.com/",
-        "imageurl" : "images/millows.png"
+        "imageurl" : "images/millows2.png"
     },
     {
         "name" : "Nature's Nook",
         "address": "50 W 1st S Rexburg, ID 83440",
         "phone" : "208-356-5284",
         "website" : "https://naturesnook.co/",
-        "imageurl" : "images/natures-nook.jpg"
+        "imageurl" : "images/natures-nook2.jpg"
     },
     {
         "name" : "Occasions Group",
         "address": "1 Stationery Pl Rexburg, ID 83440",
         "phone" : "208-359-1081",
         "website" : "https://www.theoccasionsgroup.com/",
-        "imageurl" : "images/occasions-group.jpg"
+        "imageurl" : "images/occasions-group2.jpg"
     },
     {
         "name" : "Rexburg Farmers Market",
         "address": "2983 E 2000 N Surger City, ID 83448",
         "phone" : "208-206-4918",
         "website" : "http://www.rexburgfarmersmarket.org/",
-        "imageurl" : "images/rexburg-farmers.png"
+        "imageurl" : "images/rexburg-farmers2.png"
     },
     {
         "name" : "Rexburg Commons",
         "address": "510 Terra Vista Dr. Rexburg, ID 83440",
         "phone" : "208-557-9495",
         "website" : "https://rexburgcommons.com/",
-        "imageurl" : "images/rexburg-commons.jpg"
+        "imageurl" : "images/rexburg-commons2.jpg"
     }
 ]
 }
