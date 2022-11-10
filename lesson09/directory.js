@@ -15,3 +15,20 @@ function toggleMenu() {
   
 const x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu;
+
+// using async and await
+const requestURL = 'https://starb520.github.io/wdd230/lesson09/data.json';
+
+async function getBusinesses(requestURL) {
+    const response = await fetch(requestURL);
+    console.log(response);
+    if (response.ok) {
+        const jsObject = await response.json();    //.json is a method that will make an object out of response
+        console.log(jsObject);
+        const businesses = jsObject['businesses'];
+        console.log(businesses[0].name);
+        // businesses.forEach(displayProphets);
+    }
+}
+
+getBusinesses(requestURL);
