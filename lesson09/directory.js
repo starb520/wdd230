@@ -58,7 +58,7 @@ function displayBusinesses(business) {
     document.querySelector('.cards').appendChild(card);
 
     card.appendChild(phone);
-    document.querySelector('.card').appendChild(card);
+    document.querySelector('.cards').appendChild(card);
 
     card.appendChild(img);
     document.querySelector('.cards').appendChild(card);

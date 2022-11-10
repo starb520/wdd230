@@ -61,7 +61,7 @@
         "address": "50 W 1st S Rexburg, ID 83440",
         "phone" : "208-356-5284",
         "website" : "https://naturesnook.co/",
-        "imageurl" : "natures-nook.jpg"
+        "imageurl" : "images/natures-nook.jpg"
     },
     {
         "name" : "Occasions Group",
@@ -75,14 +75,14 @@
         "address": "2983 E 2000 N Surger City, ID 83448",
         "phone" : "208-206-4918",
         "website" : "http://www.rexburgfarmersmarket.org/",
-        "imageurl" : "images/rexburg-farmers.jpg"
+        "imageurl" : "images/rexburg-farmers.png"
     },
     {
         "name" : "Rexburg Commons",
         "address": "510 Terra Vista Dr. Rexburg, ID 83440",
         "phone" : "208-557-9495",
         "website" : "https://rexburgcommons.com/",
-        "imageurl" : "rexburg-commons.jpg"
+        "imageurl" : "images/rexburg-commons.jpg"
     }
 ]
 }
