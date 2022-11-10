@@ -37,16 +37,17 @@ function displayBusinesses(business) {
     let card = document.createElement('section');
     // let name = document.createElement('h2');
     let address = document.createElement('p');
-    let website = document.createElement('p');
+    let website = document.createElement('a');
     let phone = document.createElement('p');
     let img = document.createElement('img');
         
-
-    name.textContent = business.name;
     address.textContent = business.address;
     website.textContent = business.website;
+    website.setAttribute('href', business.imgageurl)
+    phone.textContent = business.phone;
     img.setAttribute('src', business.imageurl);
     img.setAttribute('alt', business.name);
+
 
     card.appendChild(img);
     document.querySelector('.cards').appendChild(card);
@@ -57,10 +58,52 @@ function displayBusinesses(business) {
     card.appendChild(address);
     document.querySelector('.cards').appendChild(card);
 
-    card.appendChild(website);
-    document.querySelector('.cards').appendChild(card);
-
     card.appendChild(phone);
     document.querySelector('.cards').appendChild(card);
+
+    card.appendChild(website);
+    document.querySelector('.cards').appendChild(card);    
+}
+
+
+
+async function getBusinessesTable(requestURL) {
+    const response = await fetch(requestURL);
+    console.log(response);
+    if (response.ok) {
+        const jsObject = await response.json();    //.json is a method that will make an object out of response
+        console.log(jsObject);
+        const businesses = jsObject['businesses'];
+        console.log(businesses[0].name);
+        businesses.forEach(displayBusinessesTable);
+    }
+}
+
+getBusinessesTable(requestURL);
+
+
+function displayBusinessesTable(business) {
+    let card = document.createElement('tr');
+    let name = document.createElement('td');
+    let address = document.createElement('td');
+    let website = document.createElement('td');
+    let phone = document.createElement('td');
       
+    name.textContent = business.name;
+    address.textContent = business.address;
+    website.textContent = business.website;
+    website.setAttribute('href', business.imgageurl)
+    phone.textContent = business.phone;
+
+    card.appendChild(name);
+    document.querySelector('.table').appendChild(card);
+
+    card.appendChild(address);
+    document.querySelector('.table').appendChild(card);
+
+    card.appendChild(phone);
+    document.querySelector('.table').appendChild(card);
+
+    card.appendChild(website);
+    document.querySelector('.table').appendChild(card);    
 }
