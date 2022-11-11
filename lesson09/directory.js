@@ -28,6 +28,7 @@ async function getBusinesses(requestURL) {
         const businesses = jsObject['businesses'];
         console.log(businesses[0].name);
         businesses.forEach(displayBusinesses);
+        businesses.forEach(displayBusinessesTable);
     }
 }
 
@@ -67,17 +68,17 @@ function displayBusinesses(business) {
 
 
 
-async function getBusinessesTable(requestURL) {
-    const response = await fetch(requestURL);
-    console.log(response);
-    if (response.ok) {
-        const jsObject = await response.json();    //.json is a method that will make an object out of response
-        console.log(jsObject);
-        const businesses = jsObject['businesses'];
-        console.log(businesses[0].name);
-        businesses.forEach(displayBusinessesTable);
-    }
-}
+// async function getBusinessesTable(requestURL) {
+//     const response = await fetch(requestURL);
+//     console.log(response);
+//     if (response.ok) {
+//         const jsObject = await response.json();    //.json is a method that will make an object out of response
+//         console.log(jsObject);
+//         const businesses = jsObject['businesses'];
+//         console.log(businesses[0].name);
+       
+//     }
+// }
 
 getBusinessesTable(requestURL);
 
@@ -106,4 +107,14 @@ function displayBusinessesTable(business) {
 
     card.appendChild(website);
     document.querySelector('.table').appendChild(card);    
+}
+
+function displayGrid() {
+    document.querySelector('.cards').style.display="flex";
+    document.querySelector('.table').style.display="none";
+}
+
+function displayTable() {
+    document.querySelector('.table').style.display="table";
+    document.querySelector('.cards').style.display="none";
 }

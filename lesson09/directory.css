@@ -92,16 +92,19 @@ nav ul li a {
     border-radius: 2rem;   
 }
 
-.meeting_banner{
-    background-color: #EFDC14;
-    margin: 10px 10px 10px 10px;
-    text-align: center;
-    padding: 10px;
-    font-size: 15px;
-    display: none;
-    font-family: 'Merriweather Sans', sans-serif;
+.table {
+    display:none;
 }
 
+
+table tr {
+    display: flex;
+    flex-direction: column;
+}
+
+table tr:nth-child(odd) {
+    background: #8686752a;
+}
 
 /* footer */
 footer {
@@ -149,25 +152,6 @@ footer {
     margin-top: 5px;
 }
 
-/* Discover Page Style */
-#images {
-    margin: 5px 5px 5px 5px;
-    grid-template-columns: 1fr;
-}
-
-#images img {
-    width: 100%;
-}
-
-#images div {
-    text-align: center;
-    font-size: 1.5em;
-}
-
-#images .difference {
-    font-size: 2.5em;
-}
-
 
 /* javascript code for async and await */
 .cards {
@@ -187,17 +171,6 @@ footer {
     box-shadow: 5px 10px 8px 5px #888888;
 }
 
-table {
-    margin: 0 auto;
-    margin-top: 80px;
-}
-
-table, tr, td {
-    border: 2px solid gray;
-    border-collapse: collapse;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-}
 
 @media only screen and (min-width: 670px) {
     nav {
@@ -227,6 +200,26 @@ table, tr, td {
         color: white;
         justify-content: center;
         padding-top: .5rem;
+    }
+
+    table {
+        margin: 0 auto;
+        margin-top: 80px;
+        width: 90%;
+    }
+    
+    table tr:nth-child(odd) {
+        background: #8686752a;
+    }
+    
+    table tr {
+        display: table-row;
+    }          
+
+    table, tr, td {
+        border-collapse: collapse;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
     }
 
     .logo_footer {
@@ -341,14 +334,6 @@ table, tr, td {
         width: 2.25rem;  
     }
     
-    
-
-    .meeting_banner {
-        font-size: 30px;
-        margin: 10px 55px 10px 55px;
-        padding: 10px;
-    }
-
     .nav {
         display: inline;
         grid-column: 3/6;
@@ -379,6 +364,22 @@ table, tr, td {
         font-size: 1rem;
         color: white;
     }
+
+    /* table {
+        margin: 0 auto;
+        margin-top: 80px;
+        width: 90%;
+    }
+    
+    table tr:nth-child(odd) {
+        background: #8686752a;
+    }
+    
+    table, tr, td {
+        border-collapse: collapse;
+        padding-top: 1.5rem;
+        padding-bottom: .5rem;
+    } */
 
     /* large view footer */
     footer {

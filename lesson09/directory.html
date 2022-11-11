@@ -16,7 +16,7 @@
 <body>
     <header> 
         <section class="name">
-            <a class="photo_link" href="index.html">          
+            <a class="photo_link" href="../chamber/index.html">          
                 <img class="logo_header" src="../lesson03/images/rexburg.webp" alt="Chamber of Commerce">
             </a>
             
@@ -41,9 +41,9 @@
         <nav class="nav">
             <button id="hamburgerBtn"><span>&#9776;</span></button>
             <ul id="nav_menu">
-                <li><a href="#">Discover</a></li>
-                <li><a href="#">Directory</a></li>
-                <li><a href="#">Join</a></li>
+                <li><a href="../chamber/discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="../join.html">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -51,14 +51,15 @@
         <div id="date"></div>
     </header>
 
+    <button id="gridButton" onclick="displayGrid()"><span>&#9776;</span></button>
+    <button id="tableButton" onclick="displayTable()"><span>&#9776;</span></button>
     <main>
         <div class="cards"></div>
+        <table class="table"></table>
+    
     </main>
 
-    <table class="table">
-
-    </table>
-
+    
     <footer>
         <a class="logo_link" href="index.html">          
             <img class="logo_footer" src="../lesson03/images/logo.jpeg" alt="Chamber of Commerce">
