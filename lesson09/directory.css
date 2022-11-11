@@ -106,6 +106,31 @@ table tr:nth-child(odd) {
     background: #8686752a;
 }
 
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 2rem;
+}
+
+#gridButton {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: .25rem;
+    font-size: 2.5rem;
+    color:#AAAAA0;
+}
+
+#tableButton {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: .25rem;
+    font-size: 2.5rem;
+    color:#AAAAA0;
+}
+
 /* footer */
 footer {
     display: flex;
@@ -168,6 +193,7 @@ footer {
     text-align: center;
     width: 300px;
     margin: 20px;
+    overflow-wrap: break-word;
     box-shadow: 5px 10px 8px 5px #888888;
 }
 
