@@ -66,21 +66,7 @@ function displayBusinesses(business) {
     document.querySelector('.cards').appendChild(card);    
 }
 
-
-
-// async function getBusinessesTable(requestURL) {
-//     const response = await fetch(requestURL);
-//     console.log(response);
-//     if (response.ok) {
-//         const jsObject = await response.json();    //.json is a method that will make an object out of response
-//         console.log(jsObject);
-//         const businesses = jsObject['businesses'];
-//         console.log(businesses[0].name);
-       
-//     }
-// }
-
-getBusinessesTable(requestURL);
+// getBusinessesTable(requestURL);
 
 
 function displayBusinessesTable(business) {
