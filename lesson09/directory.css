@@ -198,7 +198,7 @@ footer {
 }
 
 .cards img {
-    width: 80px;
+    width: 70%;
 }
 
 @media only screen and (min-width: 670px) {
