@@ -197,9 +197,9 @@ footer {
     box-shadow: 5px 10px 8px 5px #888888;
 }
 
-.cards img {
+/* .cards img {
     width: 70%;
-}
+} */
 
 @media only screen and (min-width: 670px) {
     nav {
