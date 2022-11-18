@@ -74,10 +74,10 @@
         grid-row: 5/6;
     
     }
-
+/* 
     #oktuberfest {
         width: 8em;
-    }
+    } */
 
     #weather {
         grid-column: 4/5;

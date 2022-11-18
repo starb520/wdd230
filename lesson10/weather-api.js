@@ -1,5 +1,5 @@
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5861897&appid=dcce337c9c67d9fe15707481f83fd5e3";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5605242&appid=dcce337c9c67d9fe15707481f83fd5e3";
 const getWeather = async () => {
     const response = await fetch(apiURL);
     const jsObject = await response.json();
@@ -13,5 +13,5 @@ const getWeather = async () => {
     document.querySelector('#weathericon').setAttribute('alt', desc);
     document.querySelector('figcaption').textContent = desc;
   };
-getWeather();
+getWeather();5605242
 

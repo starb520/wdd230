@@ -136,12 +136,14 @@ main {
     padding: .25rem;
 }
 
-#event {
+/* #event {
    width: 100%;
-}
+} */
 
 .oktuberfest { 
-    width: 80%;
+    width: 15em;
+    display: block;
+    margin:auto;
     border-radius: 5%;  
 }
 
@@ -151,13 +153,12 @@ main {
 }
 
 
-#weather p {
-    font-size: 45px;
+#weather h1, #weather img {
+    display: flex;
 }
 
-.weather-img {
-   width: 30%;
-   float: left;
+#weather div #temp {
+    font-size: 40px;
 }
 
 #news_release {
@@ -169,7 +170,6 @@ main {
 
 .spotlight01 {
     background-color: gainsboro;
-    border-radius: .5rem;
     display: block;
 }
 
@@ -188,11 +188,10 @@ main {
 .spotlight02 {
     height: 100%;
     background-color: gainsboro;
-    border-radius: .5rem;   
 }
 
 .spotlight02-img {
-    width: 80%;
+    width: 70%;
 }
 
 .library-rexburg {
