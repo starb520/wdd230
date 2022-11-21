@@ -8,6 +8,14 @@ document.getElementById('date').textContent = full_date;
 document.getElementById('year').textContent = year;
 document.getElementById('current_date').textContent = currentDate;
 
+// hamburger button functionality
+function toggleMenu() {
+    document.getElementById("nav_menu").classList.toggle("open");
+    document.getElementById("hamburgerBtn").classList.toggle("open");
+}
+  
+const x = document.getElementById('hamburgerBtn');
+x.onclick = toggleMenu;
 
 // javascript for days since last visit calculation
 if (!localStorage.getItem('lastvisit')) {
