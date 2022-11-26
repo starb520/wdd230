@@ -158,13 +158,15 @@
         grid-column: 1/2;
         width: 100%;
         background-color: white;
+        display: flex;
+        background-color: gainsboro;
 
     }
 
     .oktuberfest {
         /* grid-row: 1/2;
         grid-column: 1/2; */
-        width: 100%;
+        width: 90%;
         padding: 0;
     }
 
@@ -178,13 +180,16 @@
     #join {
         grid-column: 1/2;
         grid-row: 3/4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
    #join_us_btn {
         font-size: 1.25rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
-        margin-top: 15px;    
+        margin-top: 15px;  
+        width: 12rem;  
+        align-self: center;
    }
     #hero {
         grid-column: 2/3;

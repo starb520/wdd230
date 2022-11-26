@@ -70,6 +70,12 @@
         display:block;
         grid-column: 1/5;
         grid-row: 4/5;
+        font-size: 18px;
+    }
+
+    #join_us_btn {
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 
     #event {
