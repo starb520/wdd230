@@ -104,6 +104,22 @@ footer {
     margin-right: 3rem;
 }
 
+#site-purpose {
+    margin-bottom: 1.5rem;
+}
+
+#site-map img:nth-child(2) {
+    width: 25%;
+}
+
+#site-map img:nth-child(3) {
+    width: 40%;
+}
+
+#site-map img{
+    width: 50%;
+}
+
 #main-colors {
     color: #454545;
     margin-top: 3rem;
@@ -226,9 +242,8 @@ footer {
         margin-bottom: 18rem;
     }
 
-    #site-map {
-        width: 100px;
-    }
+
+
     #main-audience {
         margin-bottom: 16rem;
     }
