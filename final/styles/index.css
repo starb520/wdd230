@@ -10,6 +10,7 @@ font-family: 'Raleway', sans-serif; */
 
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: #F3F2F1;
 }
 
 #left-side {
@@ -95,6 +96,77 @@ footer {
     width: 2rem;
 }
 
+#main-audience {
+    color: #454545;
+    margin-top: 3rem;
+    margin-bottom: 5.25rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+#main-colors {
+    color: #454545;
+    margin-top: 3rem;
+    margin-bottom: 5.25rem;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+#main-colors p {
+    margin: 5%;
+}
+
+#main-colors h2 {
+    margin: 5%;
+    font-size: 1.75rem;
+}
+
+#main-colors p:nth-child(2) {
+    background-color: #F3F2F1;
+}
+
+#main-colors p:nth-child(3) {
+    background-color: #D8BCB6;
+}
+
+#main-colors p:nth-child(4) {
+    background-color: #905C4C;
+}
+
+#main-colors p:nth-child(5) {
+    background-color: #4F6D7A;
+}
+
+#main-typography {
+    color: #454545;
+    margin-top: 3rem;
+    margin-bottom: 5.25rem;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+#main-typography p {
+    margin: 5%;
+}
+
+#main-typography h2 {
+    margin: 5%;
+    font-size: 1.75rem;
+}
+
+#main-typography p:nth-child(2) {
+    font-family: 'Cinzel', serif;
+}
+
+#main-typography p:nth-child(3) {
+    font-family: 'Playfair Display', serif;
+}
+
+#main-typography p:nth-child(4) {
+    font-family: 'Raleway', sans-serif;
+}
+
+
 @media only screen and (min-width: 515px) {
     header {
         flex-direction: row;
@@ -117,6 +189,18 @@ footer {
         margin-bottom: 16rem;
     }
     
+    #main-audience {
+        margin-bottom: 13rem;
+    }
+
+    #main-colors {
+        margin-bottom: 13rem;
+    }
+
+    #main-typography {
+        margin-bottom: 13rem;
+    }
+
 
 }
 
@@ -140,5 +224,22 @@ footer {
 
     #main-content {
         margin-bottom: 18rem;
+    }
+
+    #site-map {
+        width: 100px;
+    }
+    #main-audience {
+        margin-bottom: 16rem;
+    }
+
+    #main-colors {
+        margin-bottom: 16rem;
+        font-size: 24px;
+    }
+
+    #main-typography {
+        margin-bottom: 16rem;
+        font-size: 24px;
     }
 }
