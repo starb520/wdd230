@@ -27,7 +27,7 @@ body {
 }
 
 #left-side a:hover {
-    background-color: #5B7B7A;
+    background-color:  #4F6D7A ;
     color: white;
 }
 
@@ -108,8 +108,16 @@ footer {
     margin-bottom: 1.5rem;
 }
 
+#site-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 #site-map img:nth-child(2) {
-    width: 25%;
+    width: 40%;
 }
 
 #site-map img:nth-child(3) {
@@ -117,7 +125,8 @@ footer {
 }
 
 #site-map img{
-    width: 50%;
+    width: 30%;
+    margin-top: 2rem;
 }
 
 #main-colors {
@@ -201,6 +210,11 @@ footer {
         margin-top: 0.75rem;
     }
 
+    #site-map {
+        flex-direction:column;
+        align-items: center;
+    }
+
     #main-content {
         margin-bottom: 16rem;
     }
@@ -242,7 +256,10 @@ footer {
         margin-bottom: 18rem;
     }
 
-
+    #site-map {
+        flex-direction: row;
+        align-items:unset;
+    }
 
     #main-audience {
         margin-bottom: 16rem;
