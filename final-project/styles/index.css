@@ -1,0 +1,172 @@
+/* font-family: 'Cinzel', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif; */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #F3F2F1;
+}
+
+
+header {
+    background-color: #D8BCB6;
+    font-family: 'Cinzel', serif; 
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    list-style-type: none;
+}
+
+header a {
+    order: -1;
+}
+
+#nav-menu {
+    align-items: center;
+}
+
+#nav-menu li {
+    list-style-type: none;
+}
+
+#nav-menu li a {
+    text-decoration: none;
+    color: #454545;
+    display: block;
+   
+}
+
+.nav-bar a:hover {
+    background-color:  #4F6D7A;
+    color: white;
+}
+
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display:flex;
+    flex-direction: column;
+}
+
+#hamburgerBtn {
+    background: transparent;
+    border: none;
+    font-size: 3rem;
+    width: 120px;
+    color: #454545;
+}
+
+.logo {
+    width: 12rem;
+    background-color: #F3F2F1;
+    margin-top: 8px;
+    padding-left: 2px;
+    padding-right: 2.25px;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+footer {
+    background-color: #D8BCB6;
+    color: #454545;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr;  
+}
+
+#address {
+    margin: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+#number-social-media {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#phone-number {
+    padding-bottom: 5px;
+}
+.social {
+    display: flex;
+    gap: .25rem;
+}
+
+.social img {
+    width: 30px;
+}
+
+
+@media only screen and (min-width: 515px) {
+    header {
+       
+    }
+    
+    nav ul {
+        display: flex;
+    }
+
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        padding: 2rem;
+        position: relative;
+    }
+
+    #nav-menu li a {
+        padding: .25rem 3rem .5rem 3rem;
+    }
+
+    #hamburgerBtn {
+        display: none;
+    }
+
+    .logo {
+        width: 15rem;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    footer {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+
+
+@media only screen and (min-width: 830px) {
+    header {
+        /* font-size: 25px; */
+    }
+
+
+    .nav-bar {
+    
+    }
+
+    .logo {
+
+    }
+
+    #address {
+   
+    }
+}
