@@ -16,6 +16,9 @@
 
     <!-- connect the style sheet-->
     <link rel="stylesheet" href="styles/index.css">
+
+    <script defer src="index.js"></script>
+
 </head>
 
 <body>
@@ -23,9 +26,9 @@
             <nav class="nav-bar">
                 <button id="hamburgerBtn"><span>&#9776;</span></button>
                 <ul id="nav-menu">
-                    <li><a href="home.html">Home</a></li>
                     <li><a href="reservation.html">Reservation</a></li>
                     <li><a href="missionary.html">Missionary</a></li>
+                    <li><a href="home.html">Home</a></li>
                     <li><a href="receptions.html">Receptions</a></li>
                     <li><a href="services.html">Services</a></li>
                 </ul>
@@ -41,6 +44,26 @@
                 <img class="hero-img" src="images/hotel_hero2.jpg" alt="Temple Lobby">
             </div>
 
+            <section id="temple">
+                <picture id="temple-pic">
+                    <img src="images/cedar_city_temple2.jpg" alt="Cedar City Temple">   
+                </picture>
+            
+                <div id="temple-quote">
+                    <p>"We have thought of thy lovingkindness, O God, in the midst of thy temple."</p>
+                    <p>-Psalms 48:9</p>
+                </div>
+            </section>
+
+            <div id="weather">
+                <h2>Current Weather</h2>
+                <figure><img class="weather-img" src="#" alt="weather image"><figcaption></figcaption></figure>
+    
+                <div ><span id="temp"></span>&#8457;</div>
+        
+                <div id="wind_speed">Wind Speed: <span id="windsp"> </span></div>
+                <div id="wind_chill">Wind Chill: <span id="windch"></span></div>
+            </div>
 
         </main>
 
@@ -68,8 +91,6 @@
                 </div>
             </section>
         </footer>
-
-    <script src="index.js"></script> 
 
 </body>
 </html>
