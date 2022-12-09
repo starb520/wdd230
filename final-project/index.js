@@ -1,4 +1,4 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5605242&appid=dcce337c9c67d9fe15707481f83fd5e3";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=4348599&appid=dcce337c9c67d9fe15707481f83fd5e3";
 
 // hamburger button functionality
 function toggleMenu() {
@@ -45,3 +45,4 @@ const temp = document.querySelector('#temp').textContent;
     }
   };
 getWeather();5605242
+

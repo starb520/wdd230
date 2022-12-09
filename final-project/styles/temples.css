@@ -1,3 +1,4 @@
+
 /* font-family: 'Cinzel', serif;
 font-family: 'Playfair Display', serif;
 font-family: 'Raleway', sans-serif; */
@@ -9,6 +10,7 @@ font-family: 'Raleway', sans-serif; */
 
 body {
     font-family: 'Raleway', sans-serif;
+    /* background-color: #F3F2F1; */
 }
 
 
@@ -72,94 +74,8 @@ nav ul.open {
     padding-right: 2.25px;
 }
 
-.hero-img {
-    width: 100%;
-}
-
-#join_btn {
-    padding: .3rem 1.25rem .3rem 1.25rem;
-    font-size: 1.75rem;
-    color: #E7E1E0;
-    border: none;
-    background-color: #905C4C;    
-}
-
-#join_btn:hover {
-    background-color: #E7E1E0;
-    color: #905C4C;
-}
-
-#temple {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-items: center;
-    margin-top: 2rem;   
-}
-
-#temple-pic {
-      
-}
-
-#temple-pic img {
-   
-}
-
-#temple-quote {
-    font-size: 1.75rem;
-    text-align: center;
-    padding: 5rem;
-}
-
-#amenities {
-    background-color: #4F6D7A;
-}
-
-#amenities img {
-    width: 90%;
-    height: 90%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-.descriptions button {
-    margin: 3rem;
-    width: 10rem;   
-    height: 2.5rem;
-    background-color: #454545;
-    border: none;
-    color: white;
-    font-size: 1.5rem;
-}
-
-.descriptions {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: white;
-}
-
-.descriptions h2 {
-    margin-bottom: 1rem;
-}
-
-#hotel {
-    position: relative;
-}
-
-#hotel_outside {
-    width: 100%;
-}
-
-#weather {
-    width: 40%;
-    position: absolute;
-    left: 2rem;
-    bottom: 20px;
-    background-color: #E7E1E0;
-    opacity: .7;
-    text-align: center;
-    padding: 2rem;
+#temples-main {
+    height: 500px;
 }
 
 footer {
@@ -195,10 +111,15 @@ footer {
     width: 30px;
 }
 
-@media only screen and (min-width: 600px) {    
+
+@media only screen and (min-width: 600px) {
     .nav-bar {
+        /* display: flex;
+        align-items: center;
+        justify-content:space-around; */
         padding: 2rem;
         font-size: 1.1rem;
+        /* position: relative; */
     }
 
     #nav-menu {
@@ -220,61 +141,15 @@ footer {
         transform: translate(-50%, -50%);
     }
 
-    #welcome-message {
-        color: #454545;
-        text-align: center;  
-    }
-
-    #welcome-message h1 {
-        font-family: 'Playfair Display', serif;
-        font-size: 2.5rem;
-        padding-top: 2rem;
-        padding-bottom: 1.25rem;
-    }
-
-    #welcome-message h2 {
-        padding-bottom: 1.25rem;
-    }
-
-    #temple {
-        background-color: #D2CDCC;      
-    }
-
-    #temple-pic img{
-        width: 80%;
-        padding: 3rem;
-        padding-left:5rem;
-    }
-
-    #amenities {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        padding-top: 1.5rem;
-        margin-top: 3rem;
-    }
-    
-   
-    
     footer {
         grid-template-columns: 1fr 1fr 1fr;
     }
-    
 }
 
 
 @media only screen and (min-width: 830px) {
+
     .nav-bar {
         font-size: 1.5rem;
     }
-
-    #weather {
-        width: 20%;
-    }
-
-    #join_btn {
-        top: 7rem;
-        right: 1.5rem;
-        position: absolute;
-    }
-
 }

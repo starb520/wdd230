@@ -29,7 +29,7 @@
                     <li><a href="reservation.html">Reservation</a></li>
                     <li><a href="missionary.html">Missionary</a></li>
                     <li><a href="home.html">Home</a></li>
-                    <li><a href="receptions.html">Receptions</a></li>
+                    <li><a href="temples.html">Temples</a></li>
                     <li><a href="services.html">Services</a></li>
                 </ul>
                 
@@ -42,11 +42,15 @@
         <main id="main">
             <div id="hero">
                 <img class="hero-img" src="images/hotel_hero2.jpg" alt="Temple Lobby">
+                <button id="join_btn" onclick="window.location.assign('home.html')">Book Now</button>
             </div>
-
+            <div id="welcome-message">
+                <h1>Welcome to the Temple Inn and Suites</h1>
+                <h2>Enjoy the Atmosphere of the Temple and the Comfort of Home</h2>
+            </div>
             <section id="temple">
                 <picture id="temple-pic">
-                    <img src="images/cedar_city_temple2.jpg" alt="Cedar City Temple">   
+                    <img src="images/arizona_temple .jpg" alt="Gilbert Arizona Temple">   
                 </picture>
             
                 <div id="temple-quote">
@@ -55,14 +59,43 @@
                 </div>
             </section>
 
-            <div id="weather">
-                <h2>Current Weather</h2>
-                <figure><img class="weather-img" src="#" alt="weather image"><figcaption></figcaption></figure>
-    
-                <div ><span id="temp"></span>&#8457;</div>
+            <section id="amenities">
+
+                <div class="descriptions">
+                    <img src="images/hotel_bedroom2.jpg" alt="Rooms">
+                    <h2>Rooms</h2>
+                    <p>Temple Inn and Suites has short and long-term bookings available. Plan your stay around your schedule.</p>
+                    <button id="reservation_btn" onclick="window.location.assign('reservation.html')">Reservations</button>
+                </div>
+               
+                <div class="descriptions">
+                    <img src="images/reception_center2.jpg" alt="Reception">
+                    <h2>Reception Center</h2>
+                    <p>The reception center can be dressed up for elegant events or arranged for simpler gatherings.</p>
+                    <button id="receptions_btn" onclick="window.location.assign('services.html')">Receptions</button>
+                </div>
+                
+                <div class="descriptions">
+                    <img src="images/kids2.jpg" alt="Childcare">
+                    <h2>Childcare</h2>
+                    <p>Childcare and short-term babysitting is available to keep the kiddos busy and having fun.</p>
+                    <button id="services_btn" onclick="window.location.assign('services.html')">Services</button>
+                </div>
+            </section>
+
+            <div id="hotel">
+                <div id="weather">
+                    <h2>Current Weather</h2>
+                    <figure><img class="weather-img" src="#" alt="weather image"><figcaption></figcaption></figure>
         
-                <div id="wind_speed">Wind Speed: <span id="windsp"> </span></div>
-                <div id="wind_chill">Wind Chill: <span id="windch"></span></div>
+                    <div ><span id="temp"></span>&#8457;</div>
+            
+                    <div id="wind_speed">Wind Speed: <span id="windsp"> </span></div>
+                    <div id="wind_chill">Wind Chill: <span id="windch"></span></div>
+                </div>
+                <div id="hotel_outside">
+                    <img src="images/temple_inn2.jpg" alt="Hotel">
+                </div>
             </div>
 
         </main>
