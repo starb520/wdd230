@@ -74,6 +74,123 @@ nav ul.open {
     padding-right: 2.25px;
 }
 
+.hero-img {
+    width: 100%;
+}
+
+#join_btn {
+    padding: .3rem 1.25rem .3rem 1.25rem;
+    font-size: 1.75rem;
+    color: #D2CDCC;
+    border: none;
+    background-color: #905C4C;  
+
+}
+
+
+#join_btn:hover {
+    background-color: #E7E1E0;
+    color: #905C4C;
+}
+
+#playroom, #long-term-suites, #family-search, #sitting-area {
+    width: 350px;
+    height: 200px;
+}
+
+#services1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    text-align: center;
+    margin: 5%;
+    margin-top: 0;
+}
+
+#message h1 {
+    margin-bottom: 1%;
+}
+
+#services1 img {
+    margin: 2%;
+}
+
+#services1 div {
+    width: 350px;
+    margin-bottom: 5%;
+}
+
+#services2 img {
+    margin: 2%;
+}
+
+#services2 div {
+    width: 350px;
+    margin-bottom: 5%;
+}
+
+#playroom {
+    grid-row: 1/2;
+}
+
+#childcare {
+    grid-row: 2/3;
+}
+
+#services2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    text-align: center;
+    margin: 5%;
+}
+
+#services1 div {
+    width: 350px;
+}
+
+#family-search {
+    grid-row: 1/2;
+}
+
+#family-center {
+    grid-row: 2/3;
+}
+
+#receptions {
+    width: 400px;
+    height: 300px;
+}
+
+#reception-hall {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #905C4C;
+    color: white;
+    flex-direction: column;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+h1 {
+    color: #454545;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+#amenities {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
 footer {
     background-color: #D8BCB6;
     color: #454545;
@@ -110,12 +227,8 @@ footer {
 
 @media only screen and (min-width: 600px) {
     .nav-bar {
-        /* display: flex;
-        align-items: center;
-        justify-content:space-around; */
         padding: 2rem;
         font-size: 1.1rem;
-        /* position: relative; */
     }
 
     #nav-menu {
@@ -137,6 +250,38 @@ footer {
         transform: translate(-50%, -50%);
     }
 
+    #reception-info {
+        width: 50%;       
+    }
+
+    #reception-hall img {
+        width: 70%;
+    }
+
+    #reception-hall {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    #services1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        text-align: center;
+    }
+
+    /* #services1 div {
+        margin-top: 2%;
+    } */
+
+    #services2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        text-align: center;
+    }
+
     footer {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -147,5 +292,11 @@ footer {
 
     .nav-bar {
         font-size: 1.5rem;
+    }
+
+    #join_btn {
+        top: 7rem;
+        left: 1.5rem;
+        position: absolute;
     }
 }

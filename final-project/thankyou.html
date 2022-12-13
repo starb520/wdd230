@@ -15,13 +15,16 @@
     
 
     <!-- connect the style sheet-->
-    <link rel="stylesheet" href="styles/reservation.css">
+    <link rel="stylesheet" href="styles/thankyou.css">
 
-    <script defer src="reservation.js"></script>
+    <script defer src="thankyou.js"></script>
 
 </head>
 
 <body>
+
+</body>
+
     <header> 
         <nav class="nav-bar">
             <button id="hamburgerBtn"><span>&#9776;</span></button>
@@ -39,60 +42,9 @@
         </a>
     </header>
 
-    <main id="reservation">
-        <h2>Reservation Details</h2>
-        <form action="thankyou.html">
-
-            <section id="full-name">
-                <label for="fname">First Name*:</label>
-                <label for="lname">Last Name*:</label>
-
-                <input type="text" name="firstname" id="fname" required>
-                <input type="text" name="lastname" id="lname" required>
-            </section>
-
-            <section id="contact-info">
-                <label for="phone">Cell Number*:</label>
-                <label for="email">Email:</label>
-
-                <input id="phone" type="tel" name="cell" required>
-                <input id="email" type="email" name="email" placeholder="  jsmith@gmail.com">
-            </section>
-
-            <section id="radio">
-                <label id="room-type">Room Type:</label>
-                <div class="radio">
-                    <input type="radio" id="twin" name="room-type" value="twin">
-                    <label for="twin">Twin</label>
-                </div>
-
-                <div class="radio">
-                    <input type="radio" id="double" name="room=type" value="double">
-                    <label for="double">Double</label>
-                </div>
-
-                <div class="radio">
-                    <input type="radio" id="queen" name="room-type" value="queen">
-                    <label for="queen">Queen</label>
-                </div>
-
-                <div class="radio">
-                    <input type="radio" id="king" name="room-type" value="king">
-                    <label for="king">King</label>
-                </div>
-            </section>
-     
-            <section id="dates">
-                <label for="start">Start date:</label>
-                <label for="end">End date:</label>
-
-                <input type="date" id="start" name="trip-start" value="2023-01-01" min="2023-01-01" max="2030-12-31">               
-                <input type="date" id="end" name="trip-end" value="2023-01-02" min="2023-01-02" max="2030-12-31">
-            </section>
-
-            <input id= "button" type="submit" value="Make Reservation">
-        </form>
-    </main>
+    <div id="thankyou">
+        <h1>Thank You  for Making a Reservation at <span>Temple Inn and Suites!</span> </h1>
+    </div>
 
     <footer>
         <section id="address">

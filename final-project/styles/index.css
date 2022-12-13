@@ -93,21 +93,20 @@ nav ul.open {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    margin-top: 2rem;   
+    margin-top: 2rem;  
+    background-color: #D2CDCC; 
+    width: 100%;
+    height: auto;
 }
 
-#temple-pic {
-      
-}
-
-#temple-pic img {
-   
+#temple img {
+    width: 100%;
+    height: auto;
 }
 
 #temple-quote {
     font-size: 1.75rem;
     text-align: center;
-    padding: 5rem;
 }
 
 #amenities {
@@ -115,14 +114,13 @@ nav ul.open {
 }
 
 #amenities img {
-    width: 90%;
-    height: 90%;
+    width: 250px;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
 .descriptions button {
-    margin: 3rem;
+    margin: 1rem;
     width: 10rem;   
     height: 2.5rem;
     background-color: #454545;
@@ -147,19 +145,22 @@ nav ul.open {
     position: relative;
 }
 
-#hotel_outside {
+#hotel_outside img{
+    height: auto;
     width: 100%;
 }
 
 #weather {
-    width: 40%;
+    width: 300px;
+    height: auto;
     position: absolute;
     left: 2rem;
     bottom: 20px;
     background-color: #E7E1E0;
     opacity: .7;
     text-align: center;
-    padding: 2rem;
+    display: flex;
+    flex-direction: row;
 }
 
 footer {
@@ -186,6 +187,7 @@ footer {
 #phone-number {
     padding-bottom: 5px;
 }
+
 .social {
     display: flex;
     gap: .25rem;
@@ -236,16 +238,6 @@ footer {
         padding-bottom: 1.25rem;
     }
 
-    #temple {
-        background-color: #D2CDCC;      
-    }
-
-    #temple-pic img{
-        width: 80%;
-        padding: 3rem;
-        padding-left:5rem;
-    }
-
     #amenities {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -253,8 +245,25 @@ footer {
         margin-top: 3rem;
     }
     
-   
+    #amenities img {
+        width: 250px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
     
+    .descriptions button {
+        margin: 3rem;
+    }
+
+    #hotel_outside img{
+        height: auto;
+        max-width: 100%;
+    }
+
+    #weather {
+        flex-direction: column;
+    }
+
     footer {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -267,14 +276,26 @@ footer {
         font-size: 1.5rem;
     }
 
-    #weather {
-        width: 20%;
-    }
-
     #join_btn {
         top: 7rem;
         right: 1.5rem;
         position: absolute;
+    }
+
+
+    #weather {
+        width: 20%;
+    }
+
+    #amenities img {
+        width: 250px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    #hotel_outside {
+        height: auto;
+        max-width: 100%;
     }
 
 }

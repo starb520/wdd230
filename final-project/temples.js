@@ -12,91 +12,74 @@ let date = new Date();
 const full_date = new Intl.DateTimeFormat('en-US', {dateStyle: 'full'}).format(date);
 document.getElementById('date').textContent = full_date;
 
+
+
 // using async and await
 const requestURL = 'https://starb520.github.io/wdd230/final-project/temples.json';
 
-async function getBusinesses(requestURL) {
+async function getTemples(requestURL) {
     const response = await fetch(requestURL);
     console.log(response);
     if (response.ok) {
         const jsObject = await response.json();    //.json is a method that will make an object out of response
         console.log(jsObject);
-        const businesses = jsObject['businesses'];
-        console.log(businesses[0].name);
-        businesses.forEach(displayBusinesses);
-        businesses.forEach(displayBusinessesTable);
+        const temples = jsObject['temples'];
+        console.log(temples[0].temple);
+        temples.forEach(displayTemples);
+        // businesses.forEach(displayBusinessesTable);
     }
 }
 
-getBusinesses(requestURL);
+getTemples(requestURL);
 
-function displayBusinesses(business) {
+function displayTemples(temple) {
     let card = document.createElement('section');
-    // let name = document.createElement('h2');
+    let name = document.createElement('h2');
     let address = document.createElement('p');
-    let website = document.createElement('a');
     let phone = document.createElement('p');
     let img = document.createElement('img');
         
-    address.textContent = business.address;
-    website.textContent = business.website;
-    website.setAttribute('href', business.imgageurl)
-    phone.textContent = business.phone;
-    img.setAttribute('src', business.imageurl);
-    img.setAttribute('alt', business.name);
+    address.textContent = temple.address;
+    phone.textContent = temple.telephone;
+    name.textContent = temple.temple;
+    img.setAttribute('src', temple.imageurl);
+    img.setAttribute('alt', temple.name);
 
+    card.appendChild(name);
+    document.querySelector('.cards').appendChild(card);
 
     card.appendChild(img);
     document.querySelector('.cards').appendChild(card);
 
-    // card.appendChild(name);
-    // document.querySelector('.cards').appendChild(card);
-
     card.appendChild(address);
     document.querySelector('.cards').appendChild(card);
 
     card.appendChild(phone);
-    document.querySelector('.cards').appendChild(card);
-
-    card.appendChild(website);
-    document.querySelector('.cards').appendChild(card);    
-}
-
-// getBusinessesTable(requestURL);
-
-
-function displayBusinessesTable(business) {
-    let card = document.createElement('tr');
-    let name = document.createElement('td');
-    let address = document.createElement('td');
-    let website = document.createElement('td');
-    let phone = document.createElement('td');
-      
-    name.textContent = business.name;
-    address.textContent = business.address;
-    website.textContent = business.website;
-    website.setAttribute('href', business.imgageurl)
-    phone.textContent = business.phone;
-
-    card.appendChild(name);
-    document.querySelector('.table').appendChild(card);
-
-    card.appendChild(address);
-    document.querySelector('.table').appendChild(card);
+    document.querySelector('.cards').appendChild(card); 
 
     card.appendChild(phone);
-    document.querySelector('.table').appendChild(card);
-
-    card.appendChild(website);
-    document.querySelector('.table').appendChild(card);    
+    document.querySelector('.cards').appendChild(card);
 }
 
 function displayGrid() {
     document.querySelector('.cards').style.display="flex";
-    document.querySelector('.table').style.display="none";
 }
 
-function displayTable() {
-    document.querySelector('.table').style.display="table";
-    document.querySelector('.cards').style.display="none";
-}
+
+
+// let btn = document.querySelector("#like-btn");
+// localStorage.setItem('Name','Liked');
+// let name = localStorage.getItem('Name');
+  
+// (function (){
+//     btn.onclick = function() {
+//         btn.textContent = name;
+//     };
+// })();
+
+const btn = document.getElementById('like-btn');
+
+btn.addEventListener('click', function onClick() {
+    btn.style.backgroundColor = 'salmon';
+    btn.style.color = 'white';
+});

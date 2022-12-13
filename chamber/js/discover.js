@@ -17,6 +17,8 @@ function toggleMenu() {
 const x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu;
 
+
+
 // javascript for days since last visit calculation
 if (!localStorage.getItem('lastvisit')) {
     localStorage.setItem('lastvisit', Date.now());

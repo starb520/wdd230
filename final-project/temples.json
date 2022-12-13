@@ -2,7 +2,7 @@
     "temples" : [
         {
             "temple" : "Logan Temple",
-            "address" : "175 N 300 E Logan UT 84321-4720 United States",
+            "address" : "175 N 300 E Logan UT 84321",
             "telephone" : "435-752-3611",
             "email" : "Log In to send Email",
             "services" : "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
@@ -13,7 +13,7 @@
 
         {
             "temple" : "Manti Utah Temple",
-            "address" : "200 E 510 N Manti UT 84642-1701 United States",
+            "address" : "200 E 510 N Manti UT 84642",
             "telephone" : "435-835-2291",
             "email" : "Log In to send Email",
             "services" : "Closed for Renovation",
@@ -24,7 +24,7 @@
 
         {
             "temple" : "Provo Utah Temple",
-            "address" : "2200 Temple Hill Dr Provo UT 84604-1775 United States",
+            "address" : "2200 Temple Hill Dr Provo UT 84604",
             "telephone" : "801-375-5775",
             "email" : "Log In to send Email",
             "services" : "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
@@ -35,7 +35,7 @@
 
         {
             "temple" : "Rexburg Idaho Temple",
-            "address" : "750 S 2nd E Rexburg ID 83440-5404 United States",
+            "address" : "750 S 2nd E Rexburg ID 83440",
             "telephone" : "208-656-0880",
             "email" : "Log In to send Email",
             "services" : "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
