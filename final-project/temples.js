@@ -80,6 +80,9 @@ function displayGrid() {
 const btn = document.getElementById('like-btn');
 
 btn.addEventListener('click', function onClick() {
+    localStorage.setItem('Name', 'Liked');
+    // let name = localStorage.getItem('Name');
+    // btn.textContent = name;
     btn.style.backgroundColor = 'salmon';
     btn.style.color = 'white';
 });
