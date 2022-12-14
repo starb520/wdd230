@@ -66,23 +66,12 @@ function displayGrid() {
 }
 
 
-
-// let btn = document.querySelector("#like-btn");
-// localStorage.setItem('Name','Liked');
-// let name = localStorage.getItem('Name');
-  
-// (function (){
-//     btn.onclick = function() {
-//         btn.textContent = name;
-//     };
-// })();
-
 const btn = document.getElementById('like-btn');
 
 btn.addEventListener('click', function onClick() {
     localStorage.setItem('Name', 'Liked');
     // let name = localStorage.getItem('Name');
     // btn.textContent = name;
-    btn.style.backgroundColor = 'salmon';
+    btn.style.backgroundColor = '#4F6D7A';
     btn.style.color = 'white';
 });
